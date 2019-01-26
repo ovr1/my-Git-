@@ -10,10 +10,10 @@ if запрос == 'да':
     п_р(key)
 else:
     key = input("\nВведите Ваш ник:    ")
-    from р_н import р_н
+    from begining.р_н import р_н
     р_н(key)
     пароль = input("\nВведите, пожалуйста, Ваш пароль! -     ")
-    from р_п import р_п
+    from begining.р_п import р_п
     р_п(пароль)
     список[key] = пароль
 

@@ -2,6 +2,7 @@
 # изучите ее api
 import postgresql
 
+
 # создаем и получаем соединение с базой данных
 # формат строки соединения такой:
 #
@@ -17,7 +18,7 @@ my_select = db.prepare("SELECT * FROM frame")
 # открывает транзакцию. Кстати, можно спокойно работать без этой строчки!
 with db.xact():
     # открываем файл на запись
-    with open('C:/Users/Ruslan/PycharmProjects/GitProject/trunk/rsavenkov/db/data.txt', 'w', encoding='utf-8') as f:
+    with open('C:\Users\Oleg\PycharmProjects\my-Git-\rsavenkov\db\data.txt', 'w', encoding='utf-8') as f:
         # перебираем в цикле строчки полученные через select
         for row in my_select:
             # каждую строчку пишем в файл

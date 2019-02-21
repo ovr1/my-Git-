@@ -102,8 +102,8 @@ class MyHTTPRequestHandler(BaseHTTPRequestHandler):
             with open('wac.png', 'rb') as f:
                 self.wfile.write(f.read())
 
-        elif (self.path == '/hand.png'):
-            with open('hand.png', 'rb') as f:
+        elif (self.path == '/images/hand.gif'):
+            with open('images/hand.gif"', 'rb') as f:
                 self.wfile.write(f.read())
 
         elif (self.path == '/srt5'):

@@ -128,11 +128,11 @@ class MyHTTPRequestHandler(BaseHTTPRequestHandler):
         for d in data:
             logging.info(d.split('=')[1])
             registracyi.append(d.split('=')[1])
-            print(registracyi)
+        print(registracyi)
 
         # вот здесь по-хорошему insert в базу надо взять в try-except на тот случай если произойдет ошибка
         # и ответить клиенту что операция на сервере произошла с ошибкой
-        insert = MyHTTPRequestHandler.connection.prepare('''INSERT INTO public.postgres (id, first_namr, last_name, midle_name, age, v_purpose, tel, mail, passport)
+        insert = MyHTTPRequestHandler.connection.prepare('''INSERT INTO public.postgres (id, first_name, last_name, midle_name, age, v_purpose, tel, mail, passport)
                                                             VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9);''')
         id = MyHTTPRequestHandler.connection.prepare('select nextval(\'postgres_id_seq\')')()[0][0] # готовим и сразу выполняем select по sequence который в результате нам вернет новый id
         insert(registracyi[0], registracyi[1], registracyi[2], registracyi[3], registracyi[4], registracyi[5], registracyi[6], registracyi[7], registracyi[8], registracyi[9])

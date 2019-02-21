@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css"
+          integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
+
+	<style>
+			body
+			{
+			width: 815px;
+			border: 5px solid #a65400;
+			border-radius: 50px;
+			padding:40px;
+			margin: auto;
+
+			background: #FFDAB9;
+
+			font-size: 26px;
+			text-indent: 25px;
+			font-weight: bold;
+			text-align: justify;
+			color: #a65400;
+			}
+			</style>
+
+    <title>Регистрация</title>
+</head>
+<body>
+<form action="/register" method="POST">
+   <h1>Фамилия Имя Отчество, возраст</h1>
+    <div class="form-group">
+        <label for="surname">Фамилия</label>
+        <input type="text" class="form-control" id="surname" aria-describedby="emailHelp" placeholder="Фамилия" name="surname">
+    </div>
+    <div class="form-group">
+        <label for="name">Имя</label>
+        <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Имя" name="name">
+    </div>
+    <div class="form-group">
+        <label for="lastname">Очество</label>
+        <input type="text" class="form-control" id="lastname" aria-describedby="emailHelp" placeholder="Отчество" name="lastname">
+    </div>
+    <div class="form-group">
+        <label for="age">Ваш возраст</label>
+        <input type="number" class="form-control" id="age" aria-describedby="emailHelp" placeholder="Ваш возраст" name="age">
+    </div>
+    <h1>Цель первого визита</h1>
+    <div class="form-group">
+        <label for="Консультация">Консультация</label>
+        <input type="checkbox" class="form-control" id="Консультация" aria-describedby="emailHelp" placeholder="Консультация" name="Консультация">
+    </div>
+    <div class="form-group">
+        <label for="Классический массаж">Классический массаж</label>
+        <input type="checkbox" class="form-control" id="Классический массаж" aria-describedby="emailHelp" placeholder="Классический массаж" name="Классический массаж">
+    </div>
+    <div class="form-group">
+        <label for="СПА процедуры">СПА процедуры</label>
+        <input type="checkbox" class="form-control" id="СПА процедуры" aria-describedby="emailHelp" placeholder="СПА процедуры" name="СПА процедуры">
+    </div>
+    <div class="form-group">
+        <label for="Сеанс медитации">Сеанс медитации"</label>
+        <input type="checkbox" class="form-control" id="Сеанс медитации" aria-describedby="emailHelp" placeholder="Сеанс медитации" name="Сеанс медитации">
+    </div>
+    <h1>Дополнительные сведения о себе</h1>
+    <div class="form-group">
+        <label for="tel">tel</label>
+        <input type="number" class="form-control" id="tel" aria-describedby="emailHelp" placeholder="tel" name="tel">
+    </div>
+    <div class="form-group">
+        <label for="e-mail">e-mail</label>
+        <input type="email" class="form-control" id="e-mail" aria-describedby="emailHelp" placeholder="e-mail" name="e-mail">
+    </div>
+    <div class="form-group">
+        <label for="passport">passport</label>
+        <input type="password" class="form-control" id="passport" aria-describedby="emailHelp" placeholder="passport" name="passport">
+    </div>
+    <br><br>
+    <button type="submit" class="btn btn-primary">Отправить</button>
+</form>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js"
+        integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp"
+        crossorigin="anonymous"></script>
+</body>
+</html>

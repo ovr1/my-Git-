@@ -102,8 +102,8 @@ class MyHTTPRequestHandler(BaseHTTPRequestHandler):
             with open('wac.png', 'rb') as f:
                 self.wfile.write(f.read())
 
-        elif (self.path == '/images.gif'):
-            with open('hand.gif"', 'rb') as f:
+        elif (self.path == '/hand.png'):
+            with open('hand.png', 'rb') as f:
                 self.wfile.write(f.read())
 
         elif (self.path == '/srt5'):
@@ -128,16 +128,17 @@ class MyHTTPRequestHandler(BaseHTTPRequestHandler):
         for d in data:
             logging.info(d.split('=')[1])
             registracyi.append(d.split('=')[1])
-        print(registracyi)
+        y = registracyi[:]
+        print(y)
 
         # вот здесь по-хорошему insert в базу надо взять в try-except на тот случай если произойдет ошибка
         # и ответить клиенту что операция на сервере произошла с ошибкой
-        insert = MyHTTPRequestHandler.connection.prepare('''INSERT INTO public.postgres (id, first_name, last_name, midle_name, age, v_purpose, tel, mail, passport)
-                                                            VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9);''')
         id = MyHTTPRequestHandler.connection.prepare('select nextval(\'postgres_id_seq\')')()[0][0] # готовим и сразу выполняем select по sequence который в результате нам вернет новый id
-        insert(registracyi[0], registracyi[1], registracyi[2], registracyi[3], registracyi[4], registracyi[5], registracyi[6], registracyi[7], registracyi[8], registracyi[9])
+        insert = MyHTTPRequestHandler.connection.prepare('''INSERT INTO public.Galy (id, first_name, last_name, midle_name, age, v_purpose, tel, mail, passport)
+                                                                    VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9);''')
+        insert(id, registracyi[2], registracyi[3], registracyi[4], registracyi[5], registracyi[6], registracyi[7], registracyi[8], registracyi[9])
         self._set_response() # готовим ответ
-        self.wfile.write("Registracyi {} is added!<br><a href='/form'>Go back to registracyi.html".format(''.join(registracyi)).encode('utf-8')) # отвечаем клиенту что новый студент добавлен и даем ему ссылку на обратный переход на форму добавления
+        self.wfile.write("Registracyi {} is added!<br><a href='/Registracyi'>Go back to registracyi.html".format(''.join(registracyi)).encode('utf-8')) # отвечаем клиенту что новый студент добавлен и даем ему ссылку на обратный переход на форму добавления
 
 '''
 Функция которая запускает сервер
@@ -145,9 +146,11 @@ class MyHTTPRequestHandler(BaseHTTPRequestHandler):
 def run():
     db = None
     try:
-        connection_string = 'pq://postgres:G24O02d24230303@127.0.0.1:5432/postgres'
+        connection_string = "pq://postgres:0306@127.0.0.1:5432/Galy"
         # создаем соединение с базой данной my_db по адресу хост 127.0.0.1, порт 5432, логин postgres, пароль 123456s
         db = postgresql.open(connection_string)
+        raise_Reg = db.prepare(
+            "UPDATE registracyi SET first_name = $2, last_name = $3, middle_name = $4, age = $5, v_purpose = $6, tel = $7, mail = $8, pasport = $9 WHERE id = $1")
         exist = db.prepare("SELECT COUNT(*) FROM pg_class WHERE relname = 'postgres_id_seq'")()[0][0] # проверяем в системных каталогах есть ли наша последовательность для студентов
         if exist == 0: # если нет, то...
             db.execute("CREATE SEQUENCE postgres_id_seq INCREMENT 1 MINVALUE 1 MAXVALUE 10000000000 START 1 CACHE 1") # создаем ее

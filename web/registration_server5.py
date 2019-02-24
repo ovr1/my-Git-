@@ -5,7 +5,6 @@ import logging
 # импортим в код библиотеку postgresql для работы с базой данных postgresql
 import postgresql
 from PIL import Image
-file_name = 'registracity.txt'
 
 
 '''
@@ -13,6 +12,7 @@ file_name = 'registracity.txt'
 Определяет два метода которые будут обрабатывать get и post запросы, в которых мы напишем свою логику обработки запросов
 Наследуем от BaseHTTPRequestHandler иначе ничего работать не будет!
 '''
+
 class MyHTTPRequestHandler(BaseHTTPRequestHandler):
 
     # Аттрибут класса нашего обработчика который запоминает соединение с базой
@@ -121,6 +121,7 @@ class MyHTTPRequestHandler(BaseHTTPRequestHandler):
     '''
     Переопределяем от родителя метод который обрабатывает все post запросы к серверу
     '''
+
     def do_POST(self):
         content_length = int(self.headers['Content-Length']) # определяем размер входящего сообщения
         post_data = self.rfile.read(content_length) # читаем это сообщение
@@ -131,43 +132,42 @@ class MyHTTPRequestHandler(BaseHTTPRequestHandler):
             registracyi.append(d.split('=')[1])
         y = registracyi[:]
         print(y)
-        # вот здесь по-хорошему insert в базу надо взять в try-except на тот случай если произойдет ошибка
-        # и ответить клиенту что операция на сервере произошла с ошибкой
-        id = MyHTTPRequestHandler.connection.prepare('select nextval(\'postgres\public\Galy_id_seq\')')()[0][0] # готовим и сразу выполняем select по sequence который в результате нам вернет новый id
-        insert = MyHTTPRequestHandler.connection.prepare('''INSERT INTO public.postgres (id, first_name, last_name, midle_name, age, v_purpose, tel, mail, passport)
-                                                                    VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9);''')
-        insert(id, registracyi[2], registracyi[3], registracyi[4], registracyi[5], registracyi[6], registracyi[7], registracyi[8], registracyi[9])
-        self._set_response() # готовим ответ
-        self.wfile.write("Registracyi {} is added!<br><a href='/Registracyi'>Go back to registracyi.html".format(''.join(registracyi)).encode('utf-8')) # отвечаем клиенту что новый студент добавлен и даем ему ссылку на обратный переход на форму добавления
+        insert = MyHTTPRequestHandler.connection.prepare('''INSERT INTO registracyi(id, first_name,last_name, midle_name, age, v_purpose, tel, mail, passport)  
+                                                                            VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)''')
+        raise_Reg = insert.prepare(
+            "UPDATE registracyi SET first_name = $2, last_name = $3, midle_name = $4, age = $5, v_purpose = $6, tel = $7, mail = $8, passport = $9 WHERE id = $1")
+        with insert.xact() as xact:
+            TablRegict = insert.query("SELECT id FROM registracyi")
+            N = str(int(len(TablRegict)) + 1)
+            y.insert(0, N)
+            with insert.xact():
+                raise_Reg(y[0], str(y[1]), str(y[2]), str(y[3]), y[4], str(y[5]),  str(y[6]), str(y[7]), str(y[8]))
+        self._set_response()  # готовим ответ
+        self.wfile.write( "Registracyi {} is added!<br><a href='/Registracyi'>Go back to registracyi.html".format(
+                        ''.join(registracyi)).encode(
+                        'utf-8'))  # отвечаем клиенту что новый студент добавлен и даем ему ссылку на обратный переход на форму добавления
 
 '''
 Функция которая запускает сервер
 '''
 def run():
     db = None
-    try:
-        connection_string = "pq://postgres:0306@127.0.0.1:5432/Galy"
-        # создаем соединение с базой данной my_db по адресу хост 127.0.0.1, порт 5432, логин postgres, пароль 123456s
-        db = postgresql.open(connection_string)
-        exist = db.prepare("SELECT COUNT(*) FROM pg_class WHERE relname = 'postgres_id_seq'")()[0][0] # проверяем в системных каталогах есть ли наша последовательность для студентов
-        if exist == 0: # если нет, то...
-            db.execute("CREATE SEQUENCE postgres_id_seq INCREMENT 1 MINVALUE 1 MAXVALUE 10000000000 START 1 CACHE 1") # создаем ее
-    except Exception:
-        logging.error('Cann\'t connect to database with url {}'.format(connection_string))
-        exit(-1)
+    insert = postgresql.open("pq://postgres:0306@127.0.0.1:5432/Galy")
+    insert.execute("CREATE TABLE IF NOT EXISTS registracyi(id numeric PRIMARY KEY,first_name text,last_name text, midle_name text, age numeric,v_purpose varchar(20), tel numeric, mail varchar(20), pasport varchar(20))")
+    # создаем соединение с базой данной Galy по адресу хост 127.0.0.1, порт 5432, логин postgres, пароль 0306
     # Создаем http сервер который работает по порту 8000 и обрабатывает http запросы с помощью собственного MyHTTPRequestHandler
     try:
         PORT = 8015
         server_address = ("", PORT)
-        MyHTTPRequestHandler.connection = db
+        MyHTTPRequestHandler.connection = insert
         with HTTPServer(server_address, MyHTTPRequestHandler) as httpd:
             logging.debug("serving at port", PORT)
             # судя по описанию метода - обрабатывает запрос и ждет следующий пока сервер не будет выключен
             httpd.serve_forever()
     except Exception as e:
-        logging.error('Something wrong with your server, port is {} \n See explanation {}'.format(PORT, e))
+        logging.error('Something wrong with your server, port is {} \n See explanation {}'.format(db, e))
         exit(-1)
 
-# для самостоятельного запуска скрипта
-if __name__ == '__main__':
-    run()
+    # для самостоятельного запуска скрипта
+    if __name__ == '__main__':
+        run()

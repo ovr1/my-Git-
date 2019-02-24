@@ -132,6 +132,8 @@ class MyHTTPRequestHandler(BaseHTTPRequestHandler):
             registracyi.append(d.split('=')[1])
         y = registracyi[:]
         print(y)
+        id = MyHTTPRequestHandler.connection.prepare('select nextval(\'postgres\public\Galy_id_seq\')')()[0][
+            0]  # готовим и сразу выполняем select по sequence который в результате нам вернет новый id
         insert = MyHTTPRequestHandler.connection.prepare('''INSERT INTO registracyi(id, first_name,last_name, midle_name, age, v_purpose, tel, mail, passport)  
                                                                             VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)''')
         raise_Reg = insert.prepare(

@@ -23,7 +23,7 @@ class MyHTTPRequestHandler(BaseHTTPRequestHandler):
     Вспомогательный метод который устанавликает код ответа и заголовок Content-type
     '''
     def _set_response(self):
-        self.send_response(200)
+        self.send_response(500)
         self.send_header('Content-type', 'text/html')
         self.end_headers()
 
@@ -118,58 +118,64 @@ class MyHTTPRequestHandler(BaseHTTPRequestHandler):
                 lines = f.readlines()  # читаем файл, результат получаем в виде списка строк
                 output = ''.join(lines)  # преобразуем список строк в одну строку для отдачи на клиент
                 self.wfile.write(output.encode('utf-8'))  # пишем нашу строку в сеть запросившему клиенту
-    '''
-    Переопределяем от родителя метод который обрабатывает все post запросы к серверу
-    '''
+'''
+Переопределяем от родителя метод который обрабатывает все post запросы к серверу
+'''
 
-    def do_POST(self):
-        content_length = int(self.headers['Content-Length']) # определяем размер входящего сообщения
-        post_data = self.rfile.read(content_length) # читаем это сообщение
+def do_POST(self):
+        content_length = int(self.headers['Content-Length'])  # определяем размер входящего сообщения
+        post_data = self.rfile.read(content_length)  # читаем это сообщение
         registracyi = []
-        data = str(post_data).split('&') # обрабатываем данные от запроса
+        data = str(post_data)[0:-1].split('&')  # обрабатываем данные от запроса
         for d in data:
             logging.info(d.split('=')[1])
             registracyi.append(d.split('=')[1])
         y = registracyi[:]
         print(y)
-        id = MyHTTPRequestHandler.connection.prepare('select nextval(\'postgres\public\Galy_id_seq\')')()[0][
-            0]  # готовим и сразу выполняем select по sequence который в результате нам вернет новый id
-        insert = MyHTTPRequestHandler.connection.prepare('''INSERT INTO registracyi(id, first_name,last_name, midle_name, age, v_purpose, tel, mail, passport)  
-                                                                            VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)''')
-        raise_Reg = insert.prepare(
-            "UPDATE registracyi SET first_name = $2, last_name = $3, midle_name = $4, age = $5, v_purpose = $6, tel = $7, mail = $8, passport = $9 WHERE id = $1")
-        with insert.xact() as xact:
-            TablRegict = insert.query("SELECT id FROM registracyi")
-            N = str(int(len(TablRegict)) + 1)
-            y.insert(0, N)
-            with insert.xact():
-                raise_Reg(y[0], str(y[1]), str(y[2]), str(y[3]), y[4], str(y[5]),  str(y[6]), str(y[7]), str(y[8]))
+        # вот здесь по-хорошему insert в базу надо взять в try-except на тот случай если произойдет ошибка
+        # и ответить клиенту что операция на сервере произошла с ошибкой
+        insert = MyHTTPRequestHandler.connection.prepare('''INSERT INTO public.registracyi 
+        (id, first_name, last_name, middle_name, age, v_purpose, tel, mail, passport)
+          VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9);''')
+        id = MyHTTPRequestHandler.connection.prepare('select nextval(\'registracyi_id_seq\')')()[0][0]  # готовим и сразу выполняем select по sequence который в результате нам вернет новый id
+        insert(id, y[0], y[1], y[2], int(y[3]), y[4], int(y[5]), y[6],  y[7])
         self._set_response()  # готовим ответ
-        self.wfile.write( "Registracyi {} is added!<br><a href='/Registracyi'>Go back to registracyi.html".format(
-                        ''.join(registracyi)).encode(
-                        'utf-8'))  # отвечаем клиенту что новый студент добавлен и даем ему ссылку на обратный переход на форму добавления
+        self.wfile.write(
+            "Registracyi {} is added!<br><a href='/form'>Go back to registering form".format(''.join(registracyi)).encode(
+                'utf-8'))  # отвечаем клиенту что новый студент добавлен и даем ему ссылку на обратный переход на форму добавления
+
 
 '''
 Функция которая запускает сервер
 '''
+
 def run():
     db = None
-    insert = postgresql.open("pq://postgres:0306@127.0.0.1:5432/Galy")
-    insert.execute("CREATE TABLE IF NOT EXISTS registracyi(id numeric PRIMARY KEY,first_name text,last_name text, midle_name text, age numeric,v_purpose varchar(20), tel numeric, mail varchar(20), pasport varchar(20))")
-    # создаем соединение с базой данной Galy по адресу хост 127.0.0.1, порт 5432, логин postgres, пароль 0306
+    try:
+        connection_string = 'pq://postgres:0306@localhost:5432/Galy'
+        # создаем соединение с базой данной my_db по адресу хост 127.0.0.1, порт 5432, логин postgres, пароль 123456s
+        db = postgresql.open(connection_string)
+        exist = db.prepare("SELECT COUNT(*) FROM pg_class WHERE relname = 'registracyi_id_seq'")()[0][0]  # проверяем в системных каталогах есть ли наша последовательность для студентов
+        if exist == 0:  # если нет, то...
+            db.execute(
+                "CREATE SEQUENCE student_id_seq INCREMENT 1 MINVALUE 1 MAXVALUE 10000000000 START 1 CACHE 1")  # создаем ее
+    except Exception as e:
+        logging.error('Cann\'t connect to database with url {} {}'.format(connection_string, e))
+        exit(-1)
     # Создаем http сервер который работает по порту 8000 и обрабатывает http запросы с помощью собственного MyHTTPRequestHandler
     try:
         PORT = 8015
         server_address = ("", PORT)
-        MyHTTPRequestHandler.connection = insert
+        MyHTTPRequestHandler.connection = db
         with HTTPServer(server_address, MyHTTPRequestHandler) as httpd:
-            logging.debug("serving at port", PORT)
+            logging.info("serving at port", PORT)
             # судя по описанию метода - обрабатывает запрос и ждет следующий пока сервер не будет выключен
             httpd.serve_forever()
     except Exception as e:
         logging.error('Something wrong with your server, port is {} \n See explanation {}'.format(db, e))
         exit(-1)
 
-    # для самостоятельного запуска скрипта
-    if __name__ == '__main__':
-        run()
+
+# для самостоятельного запуска скрипта
+if __name__ == '__main__':
+    run()

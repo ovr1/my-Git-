@@ -172,7 +172,7 @@ def run():
             # судя по описанию метода - обрабатывает запрос и ждет следующий пока сервер не будет выключен
             httpd.serve_forever()
     except Exception as e:
-        logging.error('Something wrong with your server, port is {} \n See explanation {}'.format(db, e))
+        logging.error('Something wrong with your server, port is {} \n See explanation {}'.format(PORT, e))
         exit(-1)
 
 

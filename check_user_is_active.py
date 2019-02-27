@@ -1,5 +1,6 @@
 from datetime import timedelta, datetime as dt
 import time
+file_name = 'list_users.txt'
 
 list_users = {}
 
@@ -38,7 +39,12 @@ username = make_username(email)
 
 if username not in list_users:
     print("Вы с нами совсем недавно! Добро пожаловать: " + username)
-    list_users[username] = dt.now()
+    list_users[username] = 2018, 11, 12
+    with open(file_name , 'a', encoding="utf-8") as f:
+        f.write(str(list_users) + '\n')
+    with open(file_name, 'r', encoding='utf-8') as f:
+        list_users = f.readlines()
+        print(list_users)
 else:
 
     L = list_users[username]

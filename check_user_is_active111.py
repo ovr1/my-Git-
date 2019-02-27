@@ -13,7 +13,6 @@ list_users['sunnyside'] = 2018,2,24
 list_users['sarah.connor'] = 2018,1,2
 list_users['andrey3'] = 2018,4,21
 list_users['alexei22'] = 2018,2,17
-print(list_users)
 
 
 def get_email_from_user(attempts=3, sleep_duration=10):
@@ -55,6 +54,10 @@ else:
     if delta.days > 180:
         print("Вам надо подтвердить логин")
         get_email_from_user()
+        print('Спасибо!')
+        next_visit = dt(year=2018, month=11, day=12) + timedelta(days=180)
+        print("Ваш аккаунт действителен до ", next_visit)
+
     else:
         next_visit = dt(year=2018, month=11, day=12) + timedelta(days=180)
         print("Ваш аккаунт действителен до ", next_visit)

@@ -3,18 +3,6 @@ import time
 file_name = 'list_users.txt'
 
 list_users = {}
-
-list_users['sergei'] = 2018,8,3
-list_users['valentin87'] = 2018,8,4
-list_users['igor99'] = 2018,7,1
-list_users['anton4'] = 2018,1,10
-list_users['vera2000'] = 2018,4,14
-list_users['sunnyside'] = 2018,2,24
-list_users['sarah.connor'] = 2018,1,2
-list_users['andrey3'] = 2018,4,21
-list_users['alexei22'] = 2018,2,17
-
-
 def get_email_from_user(attempts=3, sleep_duration=10):
     email = input("Введите e-mail: ")
     i = 1
@@ -35,18 +23,19 @@ def make_username(email):
 email = get_email_from_user()
 username = make_username(email)
 
-
+with open(file_name, 'r', encoding='utf-8') as f:
+    ds = f.readlines()
+    ds = eval(str(ds[1:-1]))
+    for line in ds:
+        list_users = line
+        print(list_users)
+        for k, v in list_users.items():
+            print(k, ':', v)
 if username not in list_users:
     print("Вы с нами совсем недавно! Добро пожаловать: " + username)
     list_users[username] = 2018, 11, 12
-    with open(file_name , 'w', encoding="utf-8") as f:
+    with open(file_name , 'a', encoding="utf-8") as f:
         f.write(str(list_users))
-    with open(file_name, 'r', encoding='utf-8') as f:
-        list_users = f.readlines()
-        for line in list_users:
-            ds = eval(str(line))
-            for k,v in ds.items():
-                print(k,':',v)
 else:
 
     L = list_users[username]

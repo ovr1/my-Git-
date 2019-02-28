@@ -1,8 +1,8 @@
 from datetime import timedelta, datetime as dt
-from db import query_user_last_seen
+from Lessons.db import query_user_last_seen
 import time
 
-from db import list_users
+from Lessons.db import list_users
 
 registered_users = list_users()
 i = 0

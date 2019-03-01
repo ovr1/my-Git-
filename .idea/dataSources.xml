@@ -7,5 +7,11 @@
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://127.0.0.1:5432/Galy</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="Lessons@127.0.0.1" uuid="64bb1dcc-ebd9-4fa2-9181-e758482ade82">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/Lessons</jdbc-url>
+    </data-source>
   </component>
 </project>

@@ -1,8 +1,8 @@
 from datetime import timedelta, datetime as dt
-from Lessons.db import query_user_last_seen
+from db import query_user_last_seen
 import time
 
-from Lessons.db import list_users
+from db import list_users
 
 registered_users = list_users()
 i = 0
@@ -44,6 +44,9 @@ else:
     if delta.days > 180:
         print("Вам надо подтвердить логин")
         get_email_from_user()
+        print('Спасибо!')
+        next_visit = dt(year=2018, month=11, day=12) + timedelta(days=180)
+        print("Ваш аккаунт действителен до ", next_visit)
     else:
         next_visit = dt(year=2018, month=11, day=12) + timedelta(days=180)
         print("Ваш аккаунт действителен до ", next_visit)

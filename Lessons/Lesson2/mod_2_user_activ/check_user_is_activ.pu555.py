@@ -15,8 +15,8 @@ def cr_and_1w_db_postgres():
             V.insert(0, N)
             L = tuple(V)
             t = L[2]
-            tablReg = db.prepare("INSERT INTO users VALUES ($1, $2, $3)")
-            raise_Reg = db.prepare("UPDATE users SET username = $2, last_seen = $3 WHERE id = $1")
+            tablReg = db.prepare("INSERT INTO users VALUES ($Lesson1, $2, $3)")
+            raise_Reg = db.prepare("UPDATE users SET username = $2, last_seen = $3 WHERE id = $Lesson1")
             with db.xact():
                 tablReg(N, str(L[1]), dt(year=t[0], month=t[1], day=t[2]))
 
@@ -40,7 +40,7 @@ name_list = str(make_username(email))
 
 l = []
 try:
-    db = postgresql.open("pq://Oleg:0209@127.0.0.1:5432/Lessons")
+    db = postgresql.open("pq://Oleg:0209@127.0.0.Lesson1:5432/Lessons")
     def selekt_user(name_list):
         with db.xact() as xact:
             usernames = db.query("SELECT username,last_seen FROM users")
@@ -69,7 +69,7 @@ try:
                 print("Вы с нами совсем недавно! Добро пожаловать: " + name_list)
                 TablRegict = db.query("SELECT id FROM users")
                 N = str(int(len(TablRegict)) + 1)
-                tablReg = db.prepare("INSERT INTO users VALUES ($1, $2, $3)")
+                tablReg = db.prepare("INSERT INTO users VALUES ($Lesson1, $2, $3)")
                 with db.xact():
                     tablReg(N, name_list, dt(year=2018, month=11, day=12))
                     next_visit = dt(year=2018, month=11, day=12) + timedelta(days=180)
@@ -77,7 +77,7 @@ try:
     selekt_user(name_list)
     selekt_new_user(name_list)
 except:
-    db = postgresql.open("pq://Oleg:0209@127.0.0.1:5432/Lessons")
+    db = postgresql.open("pq://Oleg:0209@127.0.0.Lesson1:5432/Lessons")
     db.execute("CREATE TABLE IF NOT EXISTS users (id numeric PRIMARY KEY,username varchar(20), last_seen timestamp)")
     cr_and_1w_db_postgres()
     def selekt_user(name_list):
@@ -108,7 +108,7 @@ except:
                 print("Вы с нами совсем недавно! Добро пожаловать: " + name_list)
                 TablRegict = db.query("SELECT id FROM users")
                 N = str(int(len(TablRegict)) + 1)
-                tablReg = db.prepare("INSERT INTO users VALUES ($1, $2, $3)")
+                tablReg = db.prepare("INSERT INTO users VALUES ($Lesson1, $2, $3)")
                 with db.xact():
                     tablReg(N, name_list, dt(year=2018, month=11, day=12))
                     next_visit = dt(year=2018, month=11, day=12) + timedelta(days=180)

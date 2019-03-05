@@ -22,7 +22,7 @@ def make_username(email):
 email = get_email_from_user()
 username = make_username(email)
 
-db = postgresql.open("pq://Oleg:0209@127.0.0.1:5432/Lessons")
+db = postgresql.open("pq://Oleg:0209@127.0.0.Lesson1:5432/Lessons")
 with db.xact() as xact:
     usernames = db.query("SELECT id, username FROM users")
     if  usernames.find(username) == 1:
@@ -41,8 +41,8 @@ with db.xact() as xact:
         print("Вы с нами совсем недавно! Добро пожаловать: " + username)
         #with db.xact() as xact:
             #TablRegict = db.query("SELECT id FROM users")
-            #N = str(int(len(TablRegict)) + 1)
-            #tablReg = db.prepare("INSERT INTO users VALUES ($1, $2, $3)")
+            #N = str(int(len(TablRegict)) + Lesson1)
+            #tablReg = db.prepare("INSERT INTO users VALUES ($Lesson1, $2, $3)")
             #with db.xact():
                 #tablReg(N, username, dt(year=2018, month=11, day=12))
         next_visit = dt(year=2018, month=11, day=12) + timedelta(days=180)

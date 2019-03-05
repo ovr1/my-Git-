@@ -9,7 +9,7 @@ users = {}
 ents = {}
 # handle button events
 
-db = postgresql.open("pq://postgres:0306@127.0.0.1:5432/Galy")
+db = postgresql.open("pq://postgres:0306@127.0.0.Lesson1:5432/Galy")
 db.execute("CREATE TABLE IF NOT EXISTS registration5 (id numeric PRIMARY KEY,fio text, age numeric,v_purpose varchar(20), tel numeric, mail varchar(20), pasport varchar(20))")
 
 #postgresql.exceptions.DuplicateTableError: relation "registration5" already exists
@@ -43,8 +43,8 @@ def press(button):
         with open(file_name, 'w', encoding="utf-8") as f:
             f.write(str(testn) + '\n')
 
-        tablReg = db.prepare("INSERT INTO registration5 VALUES ($1, $2, $3, $4, $5, $6, $7)")
-        raise_Reg = db.prepare("UPDATE registration5 SET fio = $2, age = $3, v_purpose = $4, tel = $5, mail = $6, pasport = $7 WHERE id = $1")
+        tablReg = db.prepare("INSERT INTO registration5 VALUES ($Lesson1, $2, $3, $4, $5, $6, $7)")
+        raise_Reg = db.prepare("UPDATE registration5 SET fio = $2, age = $3, v_purpose = $4, tel = $5, mail = $6, pasport = $7 WHERE id = $Lesson1")
 
         with db.xact() as xact:
             TablRegict = db.query("SELECT id FROM registration5")

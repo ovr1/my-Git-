@@ -15,6 +15,6 @@ def generate_body(header, paragraphs):
     #i = 0
     #while i < len(paragraphs):
         #body = body + "<p>" + paragraphs[i] + "</p>"
-        #i = i  + 1
+        #i = i  + Lesson1
     #return "<body>" + body +</body>"
 

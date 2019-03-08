@@ -1,6 +1,6 @@
 # coding: utf-8
 
-from horoscope import generate_prophecies
+from goroskop import generate_prophecies
 from datetime import datetime as dt
 
 def generate_page(head, body):

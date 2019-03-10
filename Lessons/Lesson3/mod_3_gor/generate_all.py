@@ -28,7 +28,7 @@ def save_page(title, header, paragraphs, output="index.html"):
 		head=generate_head(title),
 		body=generate_body(header=header, paragraphs=paragraphs)
 	)
-	print(page, file = fp)
+	print(page, fp)
 	fp.close()
 
 

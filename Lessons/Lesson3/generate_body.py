@@ -1,3 +1,5 @@
+import random
+
 def generate_body(header, paragraphs):
     body = f"<h1>{header}</h1>"
     for p in paragraphs:

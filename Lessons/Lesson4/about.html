@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>about</title>
+			<meta charset="utf-8">
+			<style type="text/css">
+
+div#main
+{
+width: 960px; 
+height: 1000px; 
+border: solid 1px black; 
+position: relative;
+}
+div#header
+{
+width: 960px; 
+height: 375px; 
+background: blue; 
+position: fixed; 
+z-index: 3;
+}
+	#img1
+		{
+		float: left;
+		width: 500px;
+		height: 375px;
+		margin: auto;
+		background-color: #yellow; /*УБРАТЬ ПРИ ВСТАВКЕ FOTO*/
+		}
+	#title
+		{
+		float: left;
+		width: 450px;
+		height: 375px;
+		margin: auto;
+		}
+div#content
+{
+width: 980px; 
+height: 80px; 
+position: absolute; 
+top: 380px; 
+z-index: 1;
+}
+ul,li
+{
+margin: 0px;	
+padding: 0px;
+list-style: none;
+}
+.nav		/* общий список*/
+{
+
+color: black;
+font-size: 80%;
+}
+.nav li /*ПУНКТЫ*/
+{
+background: gold;
+width: 300px;
+float: left;
+text-align:center;
+padding: 5px 0px;
+border: gold 10px outset;
+}
+.nav li ul /*Внутренний список.  li: hover Принаведенном курсоре*/ 
+{
+
+display: none;
+}
+.nav li:hover ul /*Внутренний список.  li: hover Принаведенном курсоре*/ 
+{
+display: block;
+}
+.nav li ul li /*Подпункты*/
+{
+float: none;
+background: orange;
+} 
+div#nav2
+
+{
+	width: 600-px;
+	height: 420px;
+	position: absolute;
+	top: 480px;
+	margin-left: 235px;
+	border: ffba73 75px outset;
+}
+#req2
+		{
+		width: 450px;
+		height: 210px;
+		margin: auto;
+		padding: auto;
+		
+		color: red;
+		font-size: 20px;
+		font-weight: bold;
+		text-align: center;
+		}		
+
+#req1
+		{
+		width: 450px;
+		height: 160px;
+		border-radius: 30px;
+		border: #a65400 20px outset;
+		background-color: #a65400;
+		margin: auto;
+		padding: auto;
+	
+		color: #ffba73;
+		font-size: 26px;
+		font-weight: bold;
+		text-align: center;
+		}		
+			</style>
+		</head>
+		<body>
+		<div id="main">
+		<div id="header">
+		<div id="img1"><img src="img1.jpg" width="100%" height="100%"></div>
+		<div id="title"><img src="title.jpg" width="100%" height="100%"></div>
+		</div>
+		<div id="content">
+			<ul class="nav">
+				<li><a href=""><h1>Времена дня</h1></a>
+					<ul>
+						<li><a href=""><h2>Утром</h2></a></li>
+						<li><a href=""><h2>Днем</h2></a></li>
+						<li><a href=""><h2>Вечером</h2></a></li>
+						<li><a href=""><h2>Ночью</h2></a></li>
+						<li><a href=""><h2>После обеда</h2></a></li>
+						<li><a href=""><h2>Перед сном</h2></a></li>
+					</ul>
+				</li>
+				<li><a href=""><h1>Рекомендация</h1></a>
+					<ul>
+						<li><a href=""><h2>ожидация</h2></a></li>
+						<li><a href=""><h2>предостерегайтесь</h2></a></li>
+						<li><a href=""><h2>будьте открыты для</h2></a></li>
+					</ul>
+				<li><a href=""><h1>Ожидание</h1></a>
+					<ul>
+						<li><a href=""><h2>гостей из забытого прошлого</h2></a></li>
+						<li><a href=""><h2>встречь со старыми знакомыми</h2></a></li>
+						<li><a href=""><h2>неожиданного праздника</h2></a></li>
+						<li><a href=""><h2>приятных перемен</h2></a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div id="nav2">
+			<div id="req2"><h1>Теперь,<br><hr>перечитайте внимательнее!!!</h1></div>
+			<a href="index.html"><div id="req1"><h1>Гороскоп на сегодня</h1></div></a>
+		</div>
+		</div>
+		</body>
+	</html>

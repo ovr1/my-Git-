@@ -1,21 +1,29 @@
-<html>
-	<head>
-		<meta charset='utf-8'>
-		<title>Гороскоп на сегодня</title>
-		<link 
-			rel="stylesheet" 
-			href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
-			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
-			crossorigin="anonymous"
-		>
-		<script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
-	</head>
-	<body>
-		<div class="container">
-			<h1>Что день 2019-03-10 готовит</h1>
-			<p>Вечером ожидайте гостей из забытого прошлого. После Обеда ожидайте гостей из забытого прошлого. После Обеда предостерегайтесь встреч со старыми знакомыми. Днем будьте открыты для приятных перемен.</p>
-			<p>Вечером будьте открыты для гостей из забытого прошлого. Ночью предостерегайтесь приятных перемен. После Обеда будьте открыты для приятных перемен. Вечером предостерегайтесь встреч со старыми знакомыми.</p>
-			<p>Ночью предостерегайтесь встреч со старыми знакомыми. Ночью предостерегайтесь встреч со старыми знакомыми. Днем предостерегайтесь приятных перемен. После Обеда будьте открыты для приятных перемен.</p>
-		</div>
-	</body>
+<html><head>
+  <meta charset='utf-8'>
+  <title>Гороскоп на сегодня</title>
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous"
+  />
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Что день {{ date }} готовит</h1>
+
+      % if special_date:
+      <h2>Сегодня супер особенный день!</h2>
+      % end
+
+      % for pred in predictions:
+      <p>{{ pred }}</p>
+      % end
+
+    </div>
+  </body>
+  <script language="javascript">
+    console.log( {{ x }} );
+  </script>
 </html>

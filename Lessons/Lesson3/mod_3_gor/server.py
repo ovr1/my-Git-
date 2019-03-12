@@ -1,9 +1,18 @@
-import bottle
+from bottle import route, run, view
 
+@route('/')
+view ("predictions")
+def index():
+    return {"date":}
 
-@bottle.route("/api/test")
+@route("/api/test")
 def api_test():
-    return {"test": True}
+    return {
+        "test_passed": True
+    }
 
 
-bottle.run(host="localhost", port=8080, debug=True)
+run(
+    host="localhost",
+    port=8080,
+    )

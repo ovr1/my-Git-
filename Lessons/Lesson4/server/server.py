@@ -2,7 +2,7 @@ from bottle import route, run, view
 from datetime import datetime as dt
 from random import random
 
-@route("/")
+@route("/predictions")
 @view("predictions")
 def index():
   now = dt.now()

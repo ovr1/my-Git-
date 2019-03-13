@@ -27,7 +27,7 @@ def generate_predictions(total_num=5, num_sentences=3):
     return predictions
 
 
-print(generate_predictions())
+
 
 
 

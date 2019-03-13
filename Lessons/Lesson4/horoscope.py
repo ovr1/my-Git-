@@ -6,8 +6,8 @@ promises = ["гостей из забытого прошлого", "встреч
             "неожиданного праздника", "приятных перемен"]
 
 
-def generate_prophecies(total_num=5, num_sentences=3):
-    prophecies = []
+def generate_predictions(total_num=5, num_sentences=3):
+    predictions = []
 
     for i in range(total_num):
         forecast = ""
@@ -22,10 +22,12 @@ def generate_prophecies(total_num=5, num_sentences=3):
 
             forecast = forecast + full_sentence
 
-        prophecies.append(forecast)
+        predictions.append(forecast)
 
-    return prophecies
+    return predictions
 
+
+print(generate_predictions())
 
 
 

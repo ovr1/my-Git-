@@ -20,11 +20,11 @@ def generate_predictions(total_num=5, num_sentences=3):
             if j != num_sentences - 1:
                 full_sentence = full_sentence + " "
 
-            forecast = forecast + full_sentence +'\n'
+            forecast = forecast + full_sentence
 
         predictions.append(forecast)
 
-    return predictions
+    return list(predictions)
 
 L = generate_predictions()
 

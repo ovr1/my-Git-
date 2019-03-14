@@ -10,7 +10,7 @@ promises = ["гостей из забытого прошлого", "встреч
             "неожиданного праздника", "приятных перемен"]
 
 
-def generate_predictions(total_num=5, num_sentences=3):
+def generate_predictions(total_num=6, num_sentences=2):
     predictions = []
 
     for i in range(total_num):
@@ -31,7 +31,7 @@ def generate_predictions(total_num=5, num_sentences=3):
     return predictions
 
 @route("/")
-@view("predictions2")
+@view("predictions2x2")
 def index():
   now = dt.now()
   predictions = generate_predictions()

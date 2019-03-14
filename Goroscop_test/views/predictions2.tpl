@@ -7,50 +7,42 @@
 		<style type="text/css">
 div#main
 {
-width: 1000px; 
-height: 1000px; 
+width: 500px;
+height: 1200px;
 border: solid 1px black; 
 position: relative;
 background-color: darkorchid;
 }
-#kalendar
-		{
-		float: left;
-		width: 450px;
-		height: 580px;
-		margin-top: 40px;
-		margin-left: 20px;
-		padding-left: 10px;
-		
-		}	
+
 div#content
 {
-margin-left: 500px;
 width: 450px; 
-height: 400px; 
+height: 800px;
 position: relative;
 background-color: darkorchid;
+margin-left: 38px;
 }
 div#pred1
 {
-width: 450px; 
-height: 80px; 
+width: 425px;
+height: 75px;
 position: relative;
-background-color: grey;
+background-color: #f6ee07;
+
 }
 div#pred2
 {
-width: 450px; 
-height: 80px; 
+width: 425px;
+height: 75px;
 position: relative;
-background-color: yellow;
+background-color: #bcf006;
 }
 div#pred3
 {
-width: 450px; 
-height: 80px; 
+width: 425px;
+height: 75px;
 position: relative;
-background-color: green;
+background-color: #07a4f6;
 }
 h1
 {
@@ -80,63 +72,43 @@ font-size: 24px;
 font-weight: bold;
 text-align: center;
 }
-
-div#nav2
-
-{
-	width: 600px;
-	height: 420px;
-	position: absolute;
-	top: 800px;
-	margin-left: 475px;
-	border: ffba73 75px outset;
-}	
-#req1
-		{
-		width: 350px;
-		height: 90px;
-		border-radius: 30px;
-		border: #a65400 20px outset;
-		background-color: #a65400;
-		padding-bottom: 30px;
-		margin-left: 65px; 
-		
-		color: #ffba73;
-		font-size: 26px;
-		font-weight: bold;
-		text-align: center;
-		text-decoration: none;
-		}		
 			</style>	
 	</head>
 	<body>
 		<div id="main">
 			<h1>Что день {{ date }} готовит<br><hr>ПРЕДСКАЗАНИЯ:</h1>
-			<div id="kalendar"><img src="kalendar.png" width="100%" height="100%"></div>
 				<div id="content">
 					<div id="first">
 						<h2><Предсказание для Вас: ></h2>
 						<div id="pred1">
-							<p>{{ predictions[0] }}</p>
+							<p>{{ predictions1 }}</p>
 						</div>
 					</div>
 					<div id="second">
 						<h3>< Предсказание для друга: ></h3>
 						<div id="pred2">
-							<p>{{ predictions[1] }}</p>
+							<p>{{ predictions2 }}</p>
 						</div>
 					</div>
 					<div id="third">
-						<h4>< Предсказание для коллеги: ></h4>
+						<h4>< Предсказание для коллег: ><br>< Первому: ></h4>
 						<div id="pred3">
-							<p>{{ predictions[2] }}</p>
+							<p>{{ predictions3 }}</p>
+						</div>
+					</div>
+					<div id="fore">
+						<h4>< Второму: ></h4>
+						<div id="pred3">
+							<p>{{ predictions4 }}</p>
+						</div>
+					</div>
+					<div id="five">
+						<h4>< Третьему: ></h4>
+						<div id="pred3">
+							 <p>{{ predictions5 }}</p>
 						</div>
 					</div>
 				</div>
-			<div id="nav2">
-				<a href="about.html"><div id="req1"><h1>О реализации</h1></div></a>
-			</div>
 		</div>
 	</body>
-	<script src="helpers.js"></script>
 </html>

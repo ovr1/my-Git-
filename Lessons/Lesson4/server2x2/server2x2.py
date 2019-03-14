@@ -47,6 +47,6 @@ def api_test():
 
 run(
   host="localhost",
-  port=8080,
+  port=8055,
   autoreload=True
 )

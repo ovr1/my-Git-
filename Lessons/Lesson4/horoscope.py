@@ -28,7 +28,7 @@ def generate_predictions(total_num=5, num_sentences=3):
 
 L = generate_predictions()
 
-print(L)
+print(L[2])
 for line in L:
     N = line.split('.')
     for n in N:

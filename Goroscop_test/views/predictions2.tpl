@@ -20,29 +20,31 @@ width: 450px;
 height: 800px;
 position: relative;
 background-color: darkorchid;
-margin-left: 38px;
+padding-left: 20px;
 }
 div#pred1
 {
-width: 425px;
+width: 367px;
 height: 75px;
 position: relative;
 background-color: #f6ee07;
-
+margin-left: 35px;
 }
 div#pred2
 {
-width: 425px;
+width: 367px;
 height: 75px;
 position: relative;
 background-color: #bcf006;
+margin-left: 35px;
 }
 div#pred3
 {
-width: 425px;
+width: 367px;
 height: 75px;
 position: relative;
 background-color: #07a4f6;
+margin-left: 35px;
 }
 h1
 {
@@ -105,7 +107,7 @@ text-align: center;
 					<div id="five">
 						<h4>< Третьему: ></h4>
 						<div id="pred3">
-							 <p>{{ predictions5 }}</p>
+                              <p>{{ predictions5 }}</p>
 						</div>
 					</div>
 				</div>

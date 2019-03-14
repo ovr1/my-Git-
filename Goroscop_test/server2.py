@@ -28,7 +28,7 @@ def generate_predictions(total_num=5, num_sentences=3):
 
         predictions.append(forecast)
 
-    return predictions
+    return list(predictions)
 
 @route("/")
 @view("predictions2")

@@ -46,7 +46,7 @@ def generate_body(header, paragraphs):
 		body = body + f"<p>{p}</p>"
 	return f"<body>{body}</body>"
 
-def save_page(title, header, paragraphs, output="index.html"):
+def save_page(title, header, paragraphs, output="predictions2.tpl"):
 	fp = open(output, "w")
 	today = dt.now().date()
 	page = generate_page(

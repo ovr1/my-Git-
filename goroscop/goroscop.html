@@ -112,7 +112,7 @@ position: relative;
 background-color: #07a4f6;
 margin-left: 25px;
 }
-	</style>	
+	</style>
   <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
 	</head>
 	<body>
@@ -137,7 +137,7 @@ margin-left: 25px;
 				<div id="kalendar">
 						<h2><Предсказание для Вас: ></h2>
 						<div id="p-0">
-							<p>{{ predictions1 }}</p>
+						Predscasanie
 						</div>
 						<h3>< Предсказание для друга: ></h3>
 						<div id="p-1">
@@ -152,11 +152,18 @@ margin-left: 25px;
 		<script>
 			advice_url = "http://sf-pyw.mosyag.in/m04/api/forecasts"
 			$("#helpers").click(function() {
-				$.get.JSON(advice_url, function(data) {
-				console.log("Вот, что пришло: ");
-				console.log(data);
-				})
-				})
+				$.getJSON(advice_url, function(data) {
+				advice = data
+				console.log(advice);
+				set_prophecies("Secret msg");
+					})
+				});
+			function set_prophecies(msg) {
+				p = $("#p-0");
+
+				p.html(msg)
+				p.css("color", "red")
+			}
 		</script>
 	</body>
 </html>

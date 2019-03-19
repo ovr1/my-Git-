@@ -20,5 +20,6 @@ with open("m5-access-log-100.json") as fp:
 
     for ip in freq_dict:
         f = freq_dict[ip]
-        if f >=3:
-            print(f, ip)
+        if f ==1:
+
+            print(f)

@@ -3,6 +3,7 @@ import json
 from numpy.distutils.fcompiler import none
 
 freq_dict = {}
+N =[]
 
 with open("m5-access-log-100.json") as fp:
     data = json.load(fp)
@@ -21,5 +22,4 @@ with open("m5-access-log-100.json") as fp:
     for ip in freq_dict:
         f = freq_dict[ip]
         if f ==1:
-
             print(f)

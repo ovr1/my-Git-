@@ -4,10 +4,9 @@ import pandas
 #s = data[-100:]["ip"]
 #print(s)
 
-data = pandas.read_json("m5-access-log-100.json")
+data = pandas.read_csv("m5-access-log-all.csv")
 N = data["ip"].value_counts()
 print(N)
-print((N[0]+N[1]+N[2]),'%')
+print((N[0]))
 
 
-print(1537764467000/30000000)

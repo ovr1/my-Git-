@@ -21,11 +21,11 @@ with open("m5-access-log-100.json") as fp:
                     print(f, record["ip"], record["timestamp"], record["user-agent"])
                 else:
                     print(f, ip)
+
+
         else:
             freq_dict[record["ip"]] = 1
             print(record["ip"])
-
-
 
 
 

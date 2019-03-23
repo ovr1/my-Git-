@@ -35,10 +35,21 @@ def generate_predictions(total_num=6, num_sentences=2):
 def index():
   now = dt.now()
   predictions = generate_predictions()
+  predictions1`= predictions[0] 
+  predictions2 = predictions[1]
+  predictions3 = predictions[2]
+  predictions4 = predictions[3]
+  predictions5 = predictions[4]
+  predictions6 = predictions[5]
 
   return {
     "date": f"{now.year}-{now.month}-{now.day}",
     "predictions": f"{list(generate_predictions())}",
+	"predictions1"`= "f-0" 
+	"predictions2" = "f-1"
+	"predictions3" = "f-3"
+	"predictions4" = "f-4"
+	"predictions5" = "f-5"
   }
 
 @route("/api/test")

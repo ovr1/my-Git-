@@ -31,7 +31,6 @@ def generate_predictions(total_num=6, num_sentences=2):
     return predictions
 
 @route("/")
-@view("predictions2x2")
 def index():
   now = dt.now()
   predictions = generate_predictions()

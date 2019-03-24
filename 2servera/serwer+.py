@@ -1,8 +1,9 @@
-from bottle import route, run
+from bottle import route, run, view
+from datetime import datetime as dt
 from random import random
 
 import random
-
+now = dt.now()
 
 times = ["утром", "днем", "вечером", "ночью", "после обеда", "перед сном"]
 advices = ["ожидайте", "предостерегайтесь", "будьте открыты для"]
@@ -28,7 +29,10 @@ def generate_predictions(total_num=6, num_sentences=2):
 
         predictions.append(forecast)
 
+    response.headers["Access-Control-Allow-Origin"] = "*"
+
     return {
+        "date": f"{now.year}-{now.month}-{now.day}",
 	    "p-0" : "predictions[0]",
 	    "p-1" : "predictions[1]",
 	    "p-2" : "predictions[2]",
@@ -36,9 +40,6 @@ def generate_predictions(total_num=6, num_sentences=2):
 	    "p-4" : "predictions[4]",
 	    "p-5" : "predictions[5]",
     }
-
-response.headers["Access-Control-Allow-Origin"] = "*"
-
 
 @route("/api/test")
 def api_test():

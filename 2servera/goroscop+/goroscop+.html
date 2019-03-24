@@ -132,7 +132,7 @@ margin-left: 25px;
 	</head>
 	<body>
 		<div id="main">
-			<h1>data</h1>
+			<h1>{{date}}</h1>
 			<h1>Что этот день готовит Вам ?<br><hr></h1>
 			<a><h2 id="helpers">ПРЕДСКАЗАНИЯ:</h2></a>
 			<h5>Жми на пресказание</h5>
@@ -168,6 +168,10 @@ margin-left: 25px;
 		
 		<script>
 			advice_url = "http://127.0.0.1:8080"
+			$.getJSON(advice_url, function(date) {
+				advice = data["date"];
+				set_content_in_divs(advice);
+					})
 			$("#helpers").click(function() {
 				$.getJSON(advice_url, function(data) {
 				advice = data["predictions"];

@@ -132,7 +132,7 @@ margin-left: 25px;
 	</head>
 	<body>
 		<div id="main">
-			<h1>{{date}}</h1>
+			<h1>data</h1>
 			<h1>Что этот день готовит Вам ?<br><hr></h1>
 			<a><h2 id="helpers">ПРЕДСКАЗАНИЯ:</h2></a>
 			<h5>Жми на пресказание</h5>
@@ -167,10 +167,10 @@ margin-left: 25px;
 			</div>
 		
 		<script>
-			advice_url = "http://sf-pyw.mosyag.in/m04/api/forecasts"
+			advice_url = "http://127.0.0.1:8080"
 			$("#helpers").click(function() {
 				$.getJSON(advice_url, function(data) {
-				advice = data["prophecies"];
+				advice = data["predictions"];
 				set_content_in_divs(advice);
 					})
 				});

@@ -17,3 +17,6 @@ def index():
         TodoItem("поесть"),
     ]
     return {"tasks": tasks}
+
+###
+run(host="localhost", port=8080)

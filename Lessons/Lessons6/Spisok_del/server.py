@@ -18,7 +18,7 @@ def index():
         TodoItem("прочитать книгу"),
         TodoItem("учиться жонглировать 30 минут"),
         TodoItem("помыть посуду"),
-        TodoItem("поесть"),
+        TodoItem("поесть"),c
     ]
     return {"tasks": tasks}
 

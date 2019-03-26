@@ -1,6 +1,7 @@
 <html>
   <head>
     <title>Задачи на день</title>
+    <link rel="stylesheet" href="static/style.css">
   </head>
   <body>
   <h1>Текущие задачи</h1>

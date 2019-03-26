@@ -6,6 +6,10 @@ class TodoItem:
         self.description = description
         self.is_completed = False
 
+@route("/static/styles:C:Users\Oleg\PycharmProjects\my-Git-\Lessons\Lessons6\Spisok_del\static")
+def sent_statik(styles):
+    return styles(styles, rout='static')
+
 
 @route("/")
 @view("index")
@@ -18,5 +22,4 @@ def index():
     ]
     return {"tasks": tasks}
 
-###
 run(host="localhost", port=8080)

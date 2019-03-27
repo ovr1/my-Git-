@@ -1,6 +1,7 @@
 from bottle import route, run, view
 from datetime import datetime as dt
 from random import random
+import os
 
 import random
 
@@ -30,8 +31,10 @@ def generate_predictions(total_num=6, num_sentences=2):
 
     return predictions
 
+cwd = os.getcwd() + os.sep + "view" + os.sep + "predictions2x2.tpl"
+
 @route("/")
-@view("predictions2x2")
+@view(cwd)
 def index():
   now = dt.now()
   predictions = generate_predictions()

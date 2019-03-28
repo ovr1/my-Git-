@@ -2,10 +2,9 @@
   <head>
     <meta charset='utf-8'>
     <title>Задачи на день</title>
-    <link rel="stylesheet" href="static/style.css">
     <script src="http://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="static/script.js"></script>
-    <link rel = "stylesheet" href = "static/style.css"
+    <link rel = "stylesheet" href = "static/styles.css"
   </head>
   <body>
   <h1>Текущие задачи</h1>
@@ -13,7 +12,7 @@
   % for task in tasks:
     <li>
       <input class='checkbox' type='checkbox' />
-      {{ task }}
+      {{ task.description }}
       <a class="remove" href="#">X</a>
       <hr/>
     </li>

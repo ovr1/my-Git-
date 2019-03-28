@@ -1,5 +1,6 @@
 import os
 from bottle import route, run, view
+from bottle import static_file
 
 
 class TodoItem:
@@ -7,13 +8,12 @@ class TodoItem:
         self.description = description
         self.is_completed = False
 
+@route('/static/<filename>')
+def sent_static(filename):
+    return static_file(filename, root='./static/')
+
+
 cwd = os.getcwd() + os.sep + "view" + os.sep + "index.tpl"
-
-@route("/static/styles C:Users\Oleg\PycharmProjects\my-Git-\Lessons\Lessons6\Spisok_del\static")
-def sent_statik(styles):
-    return styles(styles, rout='static')
-
-
 @route("/")
 @view(cwd)
 def index():

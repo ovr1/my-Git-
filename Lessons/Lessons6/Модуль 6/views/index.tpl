@@ -1,4 +1,4 @@
-<html>
+<html lang='ru'>
   <head>
     <title>Задачи на день</title>
     <link rel="stylesheet" href="static/styles.css">
@@ -19,9 +19,9 @@
       </li>
     % end
     </ul>
-    <form id="todo-add">
-      <input type="text" id="new-todo-description" class="form-control"/>
-      <button class="add" type="submit">+</button>
+    <form action="/add-task" method="post">
+        <input type="text" name="description"/>
+        <button type="submit">+</button>
     </form>
   </div>
   </body>

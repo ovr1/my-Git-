@@ -3,7 +3,7 @@
     <title>Задачи на день</title>
     <link rel="stylesheet" href="static/style.css">
   </head>
-  <body>
+   <body>
   <h1>Текущие задачи</h1>
   <ul id="todo-list"></ul>
   % for task in tasks:

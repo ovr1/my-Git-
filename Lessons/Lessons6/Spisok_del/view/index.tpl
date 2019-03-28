@@ -1,11 +1,13 @@
 <html>
   <head>
+    <meta charset='utf-8'>
     <title>Задачи на день</title>
     <link rel="stylesheet" href="static/style.css">
     <script src="http://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="static/script.js"></script>
+    <link rel = "stylesheet" href = "static/style.css"
   </head>
-   <body>
+  <body>
   <h1>Текущие задачи</h1>
   <ul id="todo-list"></ul>
   % for task in tasks:

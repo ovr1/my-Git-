@@ -1,6 +1,5 @@
-import os
-from bottle import route, run, view
-from bottle import static_file
+
+from bottle import route, run, static_file, view
 
 
 class TodoItem:
@@ -8,15 +7,17 @@ class TodoItem:
         self.description = description
         self.is_completed = False
 
-@route('/static/<filename>')
-
-def sent_static(filename):
-    return static_file(filename, root='./static/')
+    def __str__(self):
+        return self.description.lower()
 
 
-cwd = os.getcwd() + os.sep + "view" + os.sep + "index.tpl"
+@route("/static/<filename:path>")
+def send_static(filename):
+    return static_file(filename, root="static")
+
+
 @route("/")
-@view(cwd)
+@view("index")
 def index():
     tasks = [
         TodoItem("прочитать книгу"),
@@ -27,4 +28,5 @@ def index():
     return {"tasks": tasks}
 
 
-run(host="localhost", port=8087)
+###
+run(host="localhost", port=8080, autoreload=True)

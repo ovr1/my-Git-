@@ -2,6 +2,8 @@
   <head>
     <title>Задачи на день</title>
     <link rel="stylesheet" href="static/style.css">
+    <script src="http://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="static/script.js"></script>
   </head>
    <body>
   <h1>Текущие задачи</h1>
@@ -22,3 +24,4 @@
   </body>
 
 </html>
+index

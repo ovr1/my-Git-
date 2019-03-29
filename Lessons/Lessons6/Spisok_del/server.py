@@ -11,7 +11,7 @@ class TodoItem:
 @route('/static/<filename>')
 
 def sent_static(filename):
-    return static_file(filename, root='./static/')
+    return static_file(filename, root='./static')
 
 
 cwd = os.getcwd() + os.sep + "view" + os.sep + "index.tpl"

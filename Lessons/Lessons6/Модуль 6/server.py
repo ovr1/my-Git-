@@ -2,6 +2,7 @@ from bottle import route, run, static_file, view, redirect, request
 from db import TodoItem
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
+import os
 
 engine = create_engine("sqlite:///tasks.db")
 Session = sessionmaker(bind=engine)
@@ -27,8 +28,9 @@ s = Session()
 def send_static(filename):
     return static_file(filename, root="static")
 
+cwd = os.getcwd() + os.sep + "view" + os.sep + "index.tpl"
 @route("/")
-@view("index")
+@view(cwd)
 def index():
     tasks = s.query(TodoItem).order_by(TodoItem.uid)
     return {"tasks": tasks}
@@ -58,4 +60,4 @@ def api_complete(uid):
 
 
 ###
-run(host="localhost", port=8080, autoreload=True)
+run(host="localhost", port=8085, autoreload=True)

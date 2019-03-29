@@ -25,7 +25,6 @@ with con:
     rows = cur.fetchall()
     for row in rows[1:]:
         L.append(row)
-
 l = print("L = ",len(L))
 
 with con:
@@ -34,6 +33,6 @@ with con:
     rows = cur.fetchall()
     for row in rows[1:]:
         N.append(row)
-
 n = print("N = ",len(N))
 
+print(7304-6696)

@@ -12,3 +12,4 @@ with open("m5-access-log-all.csv") as fp:
 
 print("S = ",len(S))
 print("N = ", len(rows))
+

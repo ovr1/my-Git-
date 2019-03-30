@@ -4,7 +4,7 @@ import sys
 
 S = []
 L = []
-N = []
+
 
 con = lite.connect('access_log.db')
 
@@ -21,18 +21,10 @@ print("N = ", len(rows))
 
 with con:
     cur = con.cursor()
-    cur.execute("SELECT * FROM main.logs[access_log] WHERE TIMESTAMP LIKE '2018-09-01%'")
+    cur.execute("SELECT * FROM main.logs[access_log] WHERE TIMESTAMP > LIKE '2018-09-01%'AND TIMESTAMP < LIKE '2018-09-10%'")
     rows = cur.fetchall()
     for row in rows[1:]:
         L.append(row)
-l = print("L = ",len(L))
+print("L = ",len(L))
 
-with con:
-    cur = con.cursor()
-    cur.execute("SELECT * FROM main.logs[access_log] WHERE TIMESTAMP LIKE '2018-09-10%'")
-    rows = cur.fetchall()
-    for row in rows[1:]:
-        N.append(row)
-n = print("N = ",len(N))
 
-print(7304-6696)

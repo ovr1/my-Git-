@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cbd073d5-1356-47f4-aafa-31e343aede8b" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/my_Git_$generate_all.coverage" NAME="generate_all Coverage Results" MODIFIED="1552070140346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lesson3/mod_3_gor" />
+    <SUITE FILE_PATH="coverage/my_Git_$horoscope.coverage" NAME="horoscope Coverage Results" MODIFIED="1552497612237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lesson4" />
+    <SUITE FILE_PATH="coverage/my_Git_$server2__3_.coverage" NAME="server2 (3) Coverage Results" MODIFIED="1553371361659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/Мои Документы/server/server2" />
+    <SUITE FILE_PATH="coverage/my_Git_$registration_server5.coverage" NAME="registration_server5 Coverage Results" MODIFIED="1552075822508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web" />
+    <SUITE FILE_PATH="coverage/my_Git_$unit_db.coverage" NAME="unit_db Coverage Results" MODIFIED="1553874772695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lessons6/Модуль 6" />
+    <SUITE FILE_PATH="coverage/my_Git_$serwer_.coverage" NAME="serwer+ Coverage Results" MODIFIED="1553426501846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2servera" />
+    <SUITE FILE_PATH="coverage/my_Git_$server2x2__1_.coverage" NAME="server2x2 (1) Coverage Results" MODIFIED="1553429772843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2servera" />
+    <SUITE FILE_PATH="coverage/my_Git_$test_db.coverage" NAME="test_db Coverage Results" MODIFIED="1553854946901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons" />
+    <SUITE FILE_PATH="coverage/my_Git_$server2.coverage" NAME="server2 Coverage Results" MODIFIED="1553619734884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lesson4/server2" />
+    <SUITE FILE_PATH="coverage/my_Git_$solve_2000_3200_.coverage" NAME="solve(2000,3200) Coverage Results" MODIFIED="1551797687293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lesson3" />
+    <SUITE FILE_PATH="coverage/my_Git_$db.coverage" NAME="db Coverage Results" MODIFIED="1553873925185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lessons6/Модуль 6" />
+    <SUITE FILE_PATH="coverage/my_Git_$TestTest.coverage" NAME="TestTest Coverage Results" MODIFIED="1552489711246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons" />
+    <SUITE FILE_PATH="coverage/my_Git_$server2__1_.coverage" NAME="server2 (1) Coverage Results" MODIFIED="1552589026809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Goroscop_test" />
+    <SUITE FILE_PATH="coverage/my_Git_$server__2_.coverage" NAME="server (2) Coverage Results" MODIFIED="1553877941316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lessons6/Модуль 6" />
+    <SUITE FILE_PATH="coverage/my_Git_$bgu.coverage" NAME="bgu Coverage Results" MODIFIED="1554022703184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lessons6" />
+    <SUITE FILE_PATH="coverage/my_Git_$server.coverage" NAME="server Coverage Results" MODIFIED="1554023253018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lessons6/HW/Spisok_del" />
+    <SUITE FILE_PATH="coverage/my_Git_$server2__2_.coverage" NAME="server2 (2) Coverage Results" MODIFIED="1552728374212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/goroscop" />
+    <SUITE FILE_PATH="coverage/my_Git_$server__1_.coverage" NAME="server (1) Coverage Results" MODIFIED="1553789119002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lessons6/Spisok_del" />
+    <SUITE FILE_PATH="coverage/my_Git_$pysqlite_m6_hw1.coverage" NAME="pysqlite-m6-hw1 Coverage Results" MODIFIED="1553981333887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lessons6" />
+    <SUITE FILE_PATH="coverage/my_Git_$server2x2.coverage" NAME="server2x2 Coverage Results" MODIFIED="1553669743368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lesson4/server2x2" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="my-Git-" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="REBASE" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
+    <option name="SIGN_OFF_COMMIT" value="true" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Lessons/Lesson3/solve(2000,3200).py" />
+        <option value="$PROJECT_DIR$/Lessons/Lesson3/mod_3_gor/generate_all.py" />
+        <option value="$PROJECT_DIR$/web/registration_server5.py" />
+        <option value="$PROJECT_DIR$/Lessons/Lesson4/server/server.py" />
+        <option value="$USER_HOME$/Desktop/server2/server2.py" />
+        <option value="$PROJECT_DIR$/Lessons/TestTest.py" />
+        <option value="$PROJECT_DIR$/Lessons/Lesson4/horoscope.py" />
+        <option value="$PROJECT_DIR$/Lessons/Lesson4/server2/views/predictions2.tpl" />
+        <option value="$PROJECT_DIR$/Lessons/Lesson4/server2x2/views/predictions2x2.py" />
+        <option value="$PROJECT_DIR$/Lessons/Lesson4/server2x2/views/predictions2x2.tpl" />
+        <option value="$PROJECT_DIR$/Goroscop_test/helpers.js" />
+        <option value="$PROJECT_DIR$/Goroscop_test/views/helpers.js" />
+        <option value="$PROJECT_DIR$/Goroscop_test/server2.py" />
+        <option value="$PROJECT_DIR$/Goroscop_test/views/predictions2.tpl" />
+        <option value="$PROJECT_DIR$/goroscop/111.html" />
+        <option value="$PROJECT_DIR$/Goroscop_test/goroscop.html" />
+        <option value="$PROJECT_DIR$/goroscop/goroscop.html" />
+        <option value="$PROJECT_DIR$/2servera/serwer+.py" />
+        <option value="$PROJECT_DIR$/Lessons/Lesson4/server2/server2.py" />
+        <option value="$PROJECT_DIR$/2servera/server2x2.py" />
+        <option value="$PROJECT_DIR$/Lessons/Lessons6/Spisok_del/static/styles.css" />
+        <option value="$PROJECT_DIR$/Lessons/Lesson4/server2x2/server2x2.py" />
+        <option value="$PROJECT_DIR$/Lessons/Lessons6/Spisok_del/view/index.html" />
+        <option value="$PROJECT_DIR$/Lessons/Lessons6/Spisok_del/view/index.tpl" />
+        <option value="$PROJECT_DIR$/Lessons/Lessons6/Spisok_del/server.py" />
+        <option value="$PROJECT_DIR$/Lessons/Lessons6/Spisok_del/static/script.js" />
+        <option value="$PROJECT_DIR$/Lessons/Lessons6/Модуль 6/static/script.js" />
+        <option value="$PROJECT_DIR$/Lessons/Lessons6/Модуль 6/db.py" />
+        <option value="$PROJECT_DIR$/Lessons/Lessons6/Модуль 6/unit_db.py" />
+        <option value="$PROJECT_DIR$/Lessons/test_db.py" />
+        <option value="$PROJECT_DIR$/Lessons/Lessons6/Модуль 6/views/index.tpl" />
+        <option value="$PROJECT_DIR$/Lessons/Lessons6/Модуль 6/server.py" />
+        <option value="$PROJECT_DIR$/Lessons/Lessons6/pysqlite-m6-hw1.py" />
+        <option value="$PROJECT_DIR$/Lessons/Lessons6/bgu.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="630" />
+    <option name="y" value="222" />
+    <option name="width" value="945" />
+    <option name="height" value="576" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="my-Git-" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-Git-" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-Git-" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-Git-" type="462c0819:PsiDirectoryNode" />
+              <item name="Lessons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-Git-" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-Git-" type="462c0819:PsiDirectoryNode" />
+              <item name="Lessons" type="462c0819:PsiDirectoryNode" />
+              <item name="Lessons6" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-Git-" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-Git-" type="462c0819:PsiDirectoryNode" />
+              <item name="Lessons" type="462c0819:PsiDirectoryNode" />
+              <item name="Lessons6" type="462c0819:PsiDirectoryNode" />
+              <item name="Модуль 6" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Lessons/Lessons6/Модуль 6" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Oleg\PycharmProjects\my-Git-\Lessons\Lessons6\Модуль 6" />
+      <recent name="C:\Users\Oleg\PycharmProjects\my-Git-\Lessons\Lesson4\server2x2" />
+      <recent name="C:\Users\Oleg\PycharmProjects\my-Git-\Goroscop_test\views" />
+      <recent name="C:\Users\Oleg\PycharmProjects\my-Git-\Lessons\Lesson4\server2" />
+      <recent name="C:\Users\Oleg\PycharmProjects\my-Git-\Lessons\Lesson4\server2\views" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Oleg\PycharmProjects\my-Git-\Lessons\Lessons6\Модуль 6" />
+      <recent name="C:\Users\Oleg\PycharmProjects\my-Git-\Lessons\Lessons6\HW" />
+      <recent name="C:\Users\Oleg\PycharmProjects\my-Git-\Lessons\Lessons6\Spisok_del" />
+      <recent name="C:\Users\Oleg\PycharmProjects\my-Git-\2servera" />
+      <recent name="C:\Users\Oleg\PycharmProjects\my-Git-\Goroscop_test" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.server (2)">
+    <configuration name="index.html" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/my-Git-/Lessons/Lesson3/mod_3_gor/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="bgu" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="my-Git-" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lessons/Lessons6" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lessons/Lessons6/bgu.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="init_db" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="my-Git-" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lessons/Lessons6/Модуль 6" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lessons/Lessons6/Модуль 6/init_db.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="server (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="my-Git-" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lessons/Lessons6/Spisok_del" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lessons/Lessons6/Spisok_del/server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="server (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="my-Git-" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lessons/Lessons6/Модуль 6" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lessons/Lessons6/Модуль 6/server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="server" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="my-Git-" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lessons/Lessons6/HW/Spisok_del" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lessons/Lessons6/HW/Spisok_del/server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.server (2)" />
+        <item itemvalue="Python.server (1)" />
+        <item itemvalue="Python.init_db" />
+        <item itemvalue="Python.server" />
+        <item itemvalue="Python.bgu" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_FIELDS" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cbd073d5-1356-47f4-aafa-31e343aede8b" name="Default Changelist" comment="" />
+      <created>1551776331266</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551776331266</updated>
+      <workItem from="1551776332622" duration="8265000" />
+      <workItem from="1552046357847" duration="954000" />
+      <workItem from="1552047629777" duration="701000" />
+      <workItem from="1552068939886" duration="1960000" />
+      <workItem from="1552071236302" duration="104000" />
+      <workItem from="1552072336694" duration="1113000" />
+      <workItem from="1552074616670" duration="3074000" />
+      <workItem from="1552209042983" duration="3000" />
+      <workItem from="1552209060140" duration="516000" />
+      <workItem from="1552413209394" duration="4016000" />
+      <workItem from="1552454133175" duration="27691000" />
+      <workItem from="1552543240382" duration="25880000" />
+      <workItem from="1552727722499" duration="4898000" />
+      <workItem from="1552742585223" duration="4049000" />
+      <workItem from="1552770389978" duration="2608000" />
+      <workItem from="1552832397466" duration="1476000" />
+      <workItem from="1552932222843" duration="335000" />
+      <workItem from="1553110706571" duration="2012000" />
+      <workItem from="1553112738229" duration="133000" />
+      <workItem from="1553369767237" duration="45000" />
+      <workItem from="1553369813237" duration="1115000" />
+      <workItem from="1553371017265" duration="1999000" />
+      <workItem from="1553423823793" duration="5792000" />
+      <workItem from="1553526847122" duration="10572000" />
+      <workItem from="1553582145063" duration="10115000" />
+      <workItem from="1553613997365" duration="4421000" />
+      <workItem from="1553620012916" duration="204000" />
+      <workItem from="1553628392631" duration="1423000" />
+      <workItem from="1553665639368" duration="2120000" />
+      <workItem from="1553703586199" duration="28734000" />
+      <workItem from="1553841578046" duration="8373000" />
+      <workItem from="1553854180965" duration="6463000" />
+      <workItem from="1553876673841" duration="1680000" />
+      <workItem from="1553878768658" duration="150000" />
+      <workItem from="1553879248132" duration="123000" />
+      <workItem from="1553941931269" duration="15302000" />
+      <workItem from="1554019162687" duration="6000" />
+      <workItem from="1554020281958" duration="9000" />
+      <workItem from="1554020387759" duration="596000" />
+      <workItem from="1554021576390" duration="404000" />
+      <workItem from="1554022086529" duration="1202000" />
+      <workItem from="1554023478548" duration="161000" />
+      <workItem from="1554023752584" duration="156000" />
+      <workItem from="1554025980606" duration="376000" />
+      <workItem from="1554026720416" duration="364000" />
+      <workItem from="1554027087326" duration="1497000" />
+      <workItem from="1554029754886" duration="2069000" />
+      <workItem from="1554033073831" duration="496000" />
+    </task>
+    <task id="LOCAL-00001" summary="Configuration">
+      <created>1551777657102</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1551777657103</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Configuration">
+      <created>1551795434826</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1551795434826</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Configuration">
+      <created>1552070413266</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1552070413266</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Configuration">
+      <created>1552209144139</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1552209144140</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Configuration">
+      <created>1552457591972</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1552457591972</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Configuration">
+      <created>1552459067874</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1552459067874</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Configuration">
+      <created>1552459385039</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1552459385039</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Configuration">
+      <created>1552459503235</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1552459503235</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Configuration">
+      <created>1552493471725</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1552493471725</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Configuration">
+      <created>1552493919672</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1552493919672</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Configuration">
+      <created>1552494077225</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1552494077225</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Configuration">
+      <created>1552543290900</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1552543290900</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Configuration">
+      <created>1552561327994</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1552561327994</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Configuration">
+      <created>1552572989356</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1552572989356</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Configuration">
+      <created>1552588223882</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1552588223882</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Configuration">
+      <created>1552728331743</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1552728331743</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Configuration">
+      <created>1553110877073</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1553110877073</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Configuration">
+      <created>1553111057096</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1553111057096</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Configuration">
+      <created>1553429017358</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1553429017358</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Configuration">
+      <created>1553582276847</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1553582276847</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Configuration">
+      <created>1553769730571</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1553769730571</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Configuration">
+      <created>1553776161497</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1553776161497</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Configuration">
+      <created>1553788679870</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1553788679870</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Configuration">
+      <created>1553804274588</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1553804274588</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Configuration">
+      <created>1553842905989</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1553842905989</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Configuration">
+      <created>1553850182151</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1553850182151</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Configuration">
+      <created>1553983061812</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1553983061812</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Configuration">
+      <created>1554026973903</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1554026973904</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Configuration">
+      <created>1554030167924</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1554030167924</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Configuration">
+      <created>1554030427137</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1554030427137</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="195755000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.65536726" visible="true" weight="0.21827" />
+      <window_info id="Structure" order="1" sideWeight="0.34463277" side_tool="true" weight="0.19838056" />
+      <window_info id="Favorites" order="2" sideWeight="0.5011442" side_tool="true" weight="0.26780626" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4995958" weight="0.32624114" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49555376" weight="0.31205675" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49878544" weight="0.32624114" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" weight="0.32951945" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50444627" side_tool="true" weight="0.31205675" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32951945" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32951945" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.32777777" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32955465" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.19078416" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.tpl" />
+  </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Configuration" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/my_Git_$server__1_.coverage" NAME="server (1) Coverage Results" MODIFIED="1554030727164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lessons6/Spisok_del" />
+    <SUITE FILE_PATH="coverage/my_Git_$init_db.coverage" NAME="init_db Coverage Results" MODIFIED="1554030216261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lessons6/Модуль 6" />
+    <SUITE FILE_PATH="coverage/my_Git_$server__2_.coverage" NAME="server (2) Coverage Results" MODIFIED="1554030782409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lessons6/Модуль 6" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Lessons/Lesson4/server2/server2.py" />
+    <entry file="file://$PROJECT_DIR$/web/base.html" />
+    <entry file="file://$PROJECT_DIR$/Lessons/Lesson4/Berta Miller.html" />
+    <entry file="file://$PROJECT_DIR$/web/registration_server.py" />
+    <entry file="file://$PROJECT_DIR$/Lessons/Lesson4/server/server.py" />
+    <entry file="file://$PROJECT_DIR$/Lessons/Lesson4/server2x2/server2x2.py" />
+    <entry file="file://$PROJECT_DIR$/Lessons/Lessons6/Spisok_del/index.html" />
+    <entry file="file://$PROJECT_DIR$/Lessons/Lesson4/index.html" />
+    <entry file="file://$PROJECT_DIR$/Lessons/Lesson4/server/views/predictions.tpl" />
+    <entry file="file://$PROJECT_DIR$/Lessons/Lessons6/Spisok_del/static/script.js" />
+    <entry file="file://$PROJECT_DIR$/Lessons/Lessons6/Spisok_del/static/styles.css" />
+    <entry file="file://$PROJECT_DIR$/Lessons/Lessons6/Spisok_del/view/index.tpl" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/aa09bd78-2d19-4af2-99d0-eba5c3294471/console.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2b02878c-f1b0-442c-83f6-82840e726f77/console.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/aa09bd78-2d19-4af2-99d0-eba5c3294471/console_1.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/53af7c5e-3eb3-45a4-afc3-7908c518b4cc/console.sql" />
+    <entry file="das://aa09bd78-2d19-4af2-99d0-eba5c3294471/collation/RTRIM" />
+    <entry file="das://aa09bd78-2d19-4af2-99d0-eba5c3294471/collation/NOCASE" />
+    <entry file="das://aa09bd78-2d19-4af2-99d0-eba5c3294471/collation/BINARY" />
+    <entry file="file://$PROJECT_DIR$/Lessons/test_db.py" />
+    <entry file="file://$PROJECT_DIR$/Lessons/Lessons6/Модуль 6/unit_db.py" />
+    <entry file="file://$PROJECT_DIR$/Lessons/Lessons6/Модуль 6/static/styles.css" />
+    <entry file="file://$PROJECT_DIR$/Lessons/Lessons6/Модуль 6/views/index.tpl" />
+    <entry file="das://aa09bd78-2d19-4af2-99d0-eba5c3294471/schema/main/table/tasks" />
+    <entry file="das://aa09bd78-2d19-4af2-99d0-eba5c3294471/schema/main/table/sqlite_master" />
+    <entry file="file://$PROJECT_DIR$/Lessons/Lesson5/pypandas-m5-hw.py" />
+    <entry file="file://$PROJECT_DIR$/Lessons/Lesson5/pypandas-m5-hw2.py" />
+    <entry file="file://$PROJECT_DIR$/Lessons/Lesson5/test_lesson5.py" />
+    <entry file="file://$PROJECT_DIR$/Lessons/Lesson5/pycsv-m5-hw.py" />
+    <entry file="file://$PROJECT_DIR$/Lessons/Lesson5/pyjson-m5-hw.py" />
+    <entry file="file://$PROJECT_DIR$/Lessons/Lesson5/m5-access-log-all.csv" />
+    <entry file="file://$PROJECT_DIR$/Lessons/Lesson5/m5-access-log-100.json" />
+    <entry file="file://$PROJECT_DIR$/Lessons/Lessons6/pysqlite-m6-hw1.py" />
+    <entry file="das://e674275b-fe76-4df9-8ef2-12a987c4ee8d/schema/main/table/sqlite_master" />
+    <entry file="das://e674275b-fe76-4df9-8ef2-12a987c4ee8d/schema/main/table/logs" />
+    <entry file="file://$PROJECT_DIR$/Lessons/Lessons6/Модуль 6/pysqlite-m6-hw1.py" />
+    <entry file="das://b9f630a6-bbb1-4501-a88e-531f732483ee/schema/main/table/logs">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lessons/Lessons6/HW/pysqlite-m6-hw1.py" />
+    <entry file="file://$PROJECT_DIR$/Lessons/Lessons6/HW/Spisok_del/server.py" />
+    <entry file="file://$PROJECT_DIR$/Lessons/Lessons6/HW/Spisok_del/view/index.tpl" />
+    <entry file="file://$PROJECT_DIR$/Lessons/Lessons6/bgu.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lessons/Lessons6/Модуль 6/static/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lessons/Lessons6/Модуль 6/static/script.js" />
+    <entry file="file://$PROJECT_DIR$/Lessons/Lessons6/Модуль 6/view/index.tpl" />
+    <entry file="file://$PROJECT_DIR$/Lessons/Lessons6/Модуль 6/init_db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/95c6d3a0-6547-40a5-bb48-0974febdae4d/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://506a0617-cf49-4257-a497-829e6497f591/schema/main/table/tasks" />
+    <entry file="das://506a0617-cf49-4257-a497-829e6497f591/schema/main/table/sqlite_master" />
+    <entry file="file://$PROJECT_DIR$/Lessons/Lessons6/Модуль 6/db.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lessons/Lessons6/Spisok_del/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lessons/Lessons6/Модуль 6/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="37" column="34" lean-forward="true" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

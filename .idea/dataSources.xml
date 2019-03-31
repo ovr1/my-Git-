@@ -37,15 +37,6 @@
         <property name="enable_load_extension" value="true" />
       </driver-properties>
     </data-source>
-    <data-source source="LOCAL" name="tasks [2]" uuid="51ceddc8-2832-4a35-b515-e9385105af05">
-      <driver-ref>sqlite.xerial</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:C:\Users\Lenovo\PycharmProjects\my-Git-\Lessons\Lessons6\Модуль 6\tasks.db</jdbc-url>
-      <driver-properties>
-        <property name="enable_load_extension" value="true" />
-      </driver-properties>
-    </data-source>
     <data-source source="LOCAL" name="access_log" uuid="088e7c64-7bd2-42df-b4cb-0ad2239955c2">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>

@@ -1,7 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cbd073d5-1356-47f4-aafa-31e343aede8b" name="Default Changelist" comment="" />
+    <list default="true" id="cbd073d5-1356-47f4-aafa-31e343aede8b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Прочее/Test5/reg.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Прочее/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Прочее/web/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2servera/goroscop+/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/2servera/goroscop+/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2servera/goroscop.html" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/2servera/goroscop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2servera/server2x2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/2servera/server2x2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2servera/serwer+.py" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/2servera/serwer+.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Goroscop_test/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/Goroscop_test/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Goroscop_test/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/Goroscop_test/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Goroscop_test/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/Goroscop_test/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Goroscop_test/.idea/pyweb-m3-hw.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/Goroscop_test/.idea/pyweb-m3-hw.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Goroscop_test/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/Goroscop_test/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Goroscop_test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/Goroscop_test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Goroscop_test/server2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/Goroscop_test/server2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Goroscop_test/views/helpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/Goroscop_test/views/helpers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Goroscop_test/views/kalendar.png" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/Goroscop_test/views/kalendar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Goroscop_test/views/predictions2.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/Goroscop_test/views/predictions2.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lessons/Lessons6/Модуль 6/tasks.db" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons/Lessons6/Модуль 6/tasks.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test5/.idea/Test5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/Test5/.idea/Test5.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test5/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/Test5/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test5/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/Test5/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test5/.idea/libraries/R_User_Library.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/Test5/.idea/libraries/R_User_Library.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test5/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/Test5/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test5/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/Test5/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test5/.idea/number.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/Test5/.idea/number.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test5/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/Test5/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/Test5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test5/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/2servera/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test5/ds.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/Test5/ds.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test5/f_read_registr.py" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/Test5/f_read_registr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test5/f_read_zapisi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/Test5/f_read_zapisi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test5/my_gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/Test5/my_gui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test5/my_gui2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/Test5/my_gui2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test5/number.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/Test5/number.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test5/number3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/Test5/number3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test5/reg.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/Test5/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test5/registration.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/Test5/registration.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test5/registration3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/Test5/registration3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test5/reпistration5.5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/Test5/reпistration5.5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test5/write_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/Test5/write_db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test5/Запись.py" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/Test5/Запись.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test5/Регистрация.py" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/Test5/Регистрация.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test5/Регистрация5.py" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/Test5/Регистрация5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goroscop/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/goroscop/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goroscop/.idea/goroscop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/goroscop/.idea/goroscop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goroscop/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/goroscop/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goroscop/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/goroscop/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goroscop/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/goroscop/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goroscop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/goroscop/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goroscop/goroscop.html" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/goroscop/goroscop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/web/Contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Massage.html" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/web/Massage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/Goroscop_test/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/web/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/desktop.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/web/desktop.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/foto1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/web/foto1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/foto2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/web/foto2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/foto3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/web/foto3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/hand.png" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/web/hand.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/mail.png" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/web/mail.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/odn.png" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/web/odn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/registraciy.html" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/web/registraciy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/registration_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/web/registration_server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/srt5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/web/srt5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/str.2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/web/str.2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/str.3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/web/str.3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/str4.html" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/web/str4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/str6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/web/str6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/tel.png" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/web/tel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/title.png" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/web/title.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/utyb.png" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/web/utyb.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/vb.png" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/web/vb.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/wac.png" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/web/wac.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/zapis.html" beforeDir="false" afterPath="$PROJECT_DIR$/Прочее/web/zapis.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,14 +117,59 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="access_log" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="SQLite - identifier.sqlite" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="my-Git-" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Lessons/Lessons6/Модуль 6/server.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="482">
+              <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#67#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lessons/Lessons6/Модуль 6/db.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#55#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lessons/Lessons6/Модуль 6/init_db.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -119,36 +240,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="my-Git-" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-Git-" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-Git-" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-Git-" type="462c0819:PsiDirectoryNode" />
-              <item name="Lessons" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-Git-" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-Git-" type="462c0819:PsiDirectoryNode" />
-              <item name="Lessons" type="462c0819:PsiDirectoryNode" />
-              <item name="Lessons6" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-Git-" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-Git-" type="462c0819:PsiDirectoryNode" />
-              <item name="Lessons" type="462c0819:PsiDirectoryNode" />
-              <item name="Lessons6" type="462c0819:PsiDirectoryNode" />
-              <item name="Модуль 6" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -160,7 +253,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Lessons/Lessons6/Модуль 6" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -307,8 +400,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.server (2)" />
-        <item itemvalue="Python.server (1)" />
         <item itemvalue="Python.init_db" />
+        <item itemvalue="Python.server (1)" />
         <item itemvalue="Python.server" />
         <item itemvalue="Python.bgu" />
       </list>
@@ -375,6 +468,9 @@
       <workItem from="1554027087326" duration="1497000" />
       <workItem from="1554029754886" duration="2069000" />
       <workItem from="1554033073831" duration="496000" />
+      <workItem from="1554052733961" duration="4766000" />
+      <workItem from="1554063412842" duration="591000" />
+      <workItem from="1554105966735" duration="903000" />
     </task>
     <task id="LOCAL-00001" summary="Configuration">
       <created>1551777657102</created>
@@ -590,33 +686,33 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="195755000" />
+    <option name="totallyTimeSpent" value="202015000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.65536726" visible="true" weight="0.21827" />
-      <window_info id="Structure" order="1" sideWeight="0.34463277" side_tool="true" weight="0.19838056" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6503937" visible="true" weight="0.2249467" />
+      <window_info id="Structure" order="1" sideWeight="0.3496063" side_tool="true" visible="true" weight="0.2249467" />
       <window_info id="Favorites" order="2" sideWeight="0.5011442" side_tool="true" weight="0.26780626" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4995958" weight="0.32624114" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49555376" weight="0.31205675" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4946695" visible="true" weight="0.312026" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" sideWeight="0.49946696" weight="0.32936078" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49878544" weight="0.32624114" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" weight="0.32951945" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50444627" side_tool="true" weight="0.31205675" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5053305" side_tool="true" visible="true" weight="0.312026" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32951945" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32951945" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.32777777" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.32955465" />
-      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.19078416" />
+      <window_info anchor="right" content_ui="combo" id="SciView" order="3" weight="0.17270789" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.19029851" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -675,15 +771,13 @@
     <option name="UPDATE_GROUP_BY_PACKAGES" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/my_Git_$server__2_.coverage" NAME="server (2) Coverage Results" MODIFIED="1554106343161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lessons6/Модуль 6" />
     <SUITE FILE_PATH="coverage/my_Git_$server__1_.coverage" NAME="server (1) Coverage Results" MODIFIED="1554030727164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lessons6/Spisok_del" />
-    <SUITE FILE_PATH="coverage/my_Git_$init_db.coverage" NAME="init_db Coverage Results" MODIFIED="1554030216261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lessons6/Модуль 6" />
-    <SUITE FILE_PATH="coverage/my_Git_$server__2_.coverage" NAME="server (2) Coverage Results" MODIFIED="1554030782409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lessons6/Модуль 6" />
+    <SUITE FILE_PATH="coverage/my_Git_$init_db.coverage" NAME="init_db Coverage Results" MODIFIED="1554106204342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lessons6/Модуль 6" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Lessons/Lesson4/server2/server2.py" />
-    <entry file="file://$PROJECT_DIR$/web/base.html" />
     <entry file="file://$PROJECT_DIR$/Lessons/Lesson4/Berta Miller.html" />
-    <entry file="file://$PROJECT_DIR$/web/registration_server.py" />
+    <entry file="file://$PROJECT_DIR$/Прочее/web/registration_server.py" />
     <entry file="file://$PROJECT_DIR$/Lessons/Lesson4/server/server.py" />
     <entry file="file://$PROJECT_DIR$/Lessons/Lesson4/server2x2/server2x2.py" />
     <entry file="file://$PROJECT_DIR$/Lessons/Lessons6/Spisok_del/index.html" />
@@ -716,42 +810,16 @@
     <entry file="das://e674275b-fe76-4df9-8ef2-12a987c4ee8d/schema/main/table/sqlite_master" />
     <entry file="das://e674275b-fe76-4df9-8ef2-12a987c4ee8d/schema/main/table/logs" />
     <entry file="file://$PROJECT_DIR$/Lessons/Lessons6/Модуль 6/pysqlite-m6-hw1.py" />
-    <entry file="das://b9f630a6-bbb1-4501-a88e-531f732483ee/schema/main/table/logs">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://b9f630a6-bbb1-4501-a88e-531f732483ee/schema/main/table/logs" />
     <entry file="file://$PROJECT_DIR$/Lessons/Lessons6/HW/pysqlite-m6-hw1.py" />
     <entry file="file://$PROJECT_DIR$/Lessons/Lessons6/HW/Spisok_del/server.py" />
     <entry file="file://$PROJECT_DIR$/Lessons/Lessons6/HW/Spisok_del/view/index.tpl" />
-    <entry file="file://$PROJECT_DIR$/Lessons/Lessons6/bgu.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lessons/Lessons6/Модуль 6/static/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Lessons/Lessons6/bgu.py" />
     <entry file="file://$PROJECT_DIR$/Lessons/Lessons6/Модуль 6/static/script.js" />
     <entry file="file://$PROJECT_DIR$/Lessons/Lessons6/Модуль 6/view/index.tpl" />
-    <entry file="file://$PROJECT_DIR$/Lessons/Lessons6/Модуль 6/init_db.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/95c6d3a0-6547-40a5-bb48-0974febdae4d/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/95c6d3a0-6547-40a5-bb48-0974febdae4d/console.sql" />
     <entry file="das://506a0617-cf49-4257-a497-829e6497f591/schema/main/table/tasks" />
     <entry file="das://506a0617-cf49-4257-a497-829e6497f591/schema/main/table/sqlite_master" />
-    <entry file="file://$PROJECT_DIR$/Lessons/Lessons6/Модуль 6/db.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lessons/Lessons6/Spisok_del/server.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -759,10 +827,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/-78776997/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="815" column="8" selection-start-line="815" selection-start-column="8" selection-end-line="815" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/ide/ide-scripting.groovy">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lessons/Lessons6/Модуль 6/static/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lessons/Lessons6/Модуль 6/db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lessons/Lessons6/Модуль 6/init_db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Lessons/Lessons6/Модуль 6/server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="37" column="34" lean-forward="true" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+        <state relative-caret-position="482">
+          <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
           <folding>
             <element signature="e#0#67#0" expanded="true" />
           </folding>

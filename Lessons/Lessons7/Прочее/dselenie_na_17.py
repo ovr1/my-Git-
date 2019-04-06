@@ -5,6 +5,7 @@ def approved_divide(top, bottom):
     try:
         if abs(bottom - 17) < 0.0002:
             raise SeventenIsOutlawed
+            pass
     except:
         print("нельзя делить на 17")
 

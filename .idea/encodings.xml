@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Lessons/Lessons6/access_log.db" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lessons/Lessons6/Модуль 6/tasks.db" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Lessons/Lessons7/Test3/my_app.log" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/Lessons/Lessons7/Test5/my_app.log" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/Lessons/Lessons7/loggin/example.log" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/Lessons/Lessons7/Прочее/my_app.log" charset="windows-1251" />
   </component>
 </project>

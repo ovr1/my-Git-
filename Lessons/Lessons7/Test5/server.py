@@ -9,8 +9,8 @@ def danger(top, bottom):
     res = {"result": 0, "error": None}
     try:
         res["result"] = top / bottom
-    except Exception as err:
-        res["error"] = f"Для входных данных {top} и {bottom} не получилось: {err}"
+    except ZeroDivisionError as error:
+        res["error"] = f"Для входных данных {top} и {bottom} не получилось: {error}"
         agent = request.headers["User-Agent"]
         host = request.headers["Host"]
         path = request.path

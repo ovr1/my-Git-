@@ -38,13 +38,14 @@ def api_delete(uid):
     s.commit()
     return redirect("/")
 
-
 @route("/api/complete/<uid:int>")
 def api_complete(uid):
     t = s.query(TodoItem).filter(TodoItem.uid == uid).first()
     t.is_completed = True
     s.commit()
     return "Ok"
+
+
 
 ###
 run(host="localhost", port=8080)

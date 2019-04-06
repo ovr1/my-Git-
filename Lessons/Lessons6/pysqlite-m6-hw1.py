@@ -40,7 +40,7 @@ with con:
         else:
             fd[ip] = 1
 for k,v in fd.items():
-    if int(v) > 2850:
+    if int(v) > 7000:
         print(v,k)
 
 

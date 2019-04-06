@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="Lessons@127.0.0.1">
-  <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.14">
+  <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.15">
     <root id="1">
       <ServerVersion>9.6.11</ServerVersion>
     </root>
@@ -47,8 +47,8 @@
       <CreateRole>1</CreateRole>
       <CreateDb>1</CreateDb>
       <CanLogin>1</CanLogin>
-      <Replication>1</Replication>
       <ConnectionLimit>-1</ConnectionLimit>
+      <Replication>1</Replication>
       <BypassRls>1</BypassRls>
     </role>
     <schema id="9" parent="3" name="information_schema">
@@ -177,8 +177,8 @@
       <ObjectId>34212</ObjectId>
       <StateNumber>4710</StateNumber>
       <ColNames>id</ColNames>
-      <UnderlyingIndexName>users_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
+      <UnderlyingIndexName>users_pkey</UnderlyingIndexName>
     </key>
   </database-model>
 </dataSource>

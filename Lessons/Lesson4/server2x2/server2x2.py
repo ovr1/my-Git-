@@ -30,9 +30,9 @@ def generate_predictions(total_num=6, num_sentences=2):
         predictions.append(forecast)
 
     return predictions
-cwd = os.getcwd()+os.sep+"view"+os.sep+"predictions2x2.tpl"
+
 @route("/")
-@view(cwd)
+@view("predictions2x2")
 def index():
   now = dt.now()
   predictions = generate_predictions()

@@ -9,6 +9,7 @@
   <body>
   <div class="container">
     <h1>Текущие задачи</h1>
+    <h2>Колличество не решенных задач: {{total_tasks}}</h2>
     <ul id="todo-list">
     % for task in tasks:
       % if task.is_completed:

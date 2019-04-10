@@ -2,12 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbd073d5-1356-47f4-aafa-31e343aede8b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lessons/Lessons6/Модуль 6/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons/Lessons6/Модуль 6/server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lessons/Lessons6/Модуль 6/tasks.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lessons/Lessons6/Модуль 6/view/index.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons/Lessons6/Модуль 6/view/index.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyweb-bottle-heroku/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyweb-bottle-heroku/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyweb-bottle-heroku/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyweb-bottle-heroku/.idea/pyweb-bottle-heroku.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyweb-bottle-heroku/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyweb-bottle-heroku/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyweb-bottle-heroku/Procfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyweb-bottle-heroku/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyweb-bottle-heroku/app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyweb-bottle-heroku/python-getting-started" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyweb-bottle-heroku/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyweb-bottle-heroku/runtime.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyweb-bottle-heroku/server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyweb-bottle-heroku/static/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyweb-bottle-heroku/views/home.tpl" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,30 +66,7 @@
     <favorites_list name="my-Git-" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pyweb-bottle-heroku/server.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pyweb-bottle-heroku/app.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pyweb-bottle-heroku/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -174,16 +162,6 @@
               <item name="my-Git-" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-Git-" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="my-Git-" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-Git-" type="462c0819:PsiDirectoryNode" />
-              <item name="Lessons" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-Git-" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-Git-" type="462c0819:PsiDirectoryNode" />
-              <item name="pyweb-bottle-heroku" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -199,7 +177,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -425,7 +403,8 @@
       <workItem from="1554446920778" duration="3557000" />
       <workItem from="1554540186647" duration="3561000" />
       <workItem from="1554544197626" duration="1621000" />
-      <workItem from="1554743130168" duration="6721000" />
+      <workItem from="1554743130168" duration="8130000" />
+      <workItem from="1554814880734" duration="2229000" />
     </task>
     <task id="LOCAL-00001" summary="Configuration">
       <created>1551777657102</created>
@@ -721,21 +700,28 @@
       <option name="project" value="LOCAL" />
       <updated>1554743377220</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Configuration">
+      <created>1554803425756</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1554803425788</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="253683000" />
+    <option name="totallyTimeSpent" value="257321000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.64053535" visible="true" weight="0.15831557" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.64053535" visible="true" weight="0.15991472" />
       <window_info id="Structure" order="1" sideWeight="0.35946462" side_tool="true" weight="0.15351813" />
       <window_info id="Favorites" order="2" sideWeight="0.5011442" side_tool="true" weight="0.26780626" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4968017" weight="0.3261105" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4914712" visible="true" weight="0.43336946" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49093816" weight="0.43336946" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -743,7 +729,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" sideWeight="0.49946696" weight="0.32936078" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4978678" weight="0.3261105" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" weight="0.32951945" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50852877" side_tool="true" weight="0.43336946" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50852877" side_tool="true" visible="true" weight="0.43336946" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32951945" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32951945" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.32777777" />
@@ -829,6 +815,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/pyweb-bottle-heroku/python-getting-started" />
+      <path value="$PROJECT_DIR$/pyweb-bottle-heroku/python-getting-started/python-getting-started" />
+    </ignored-roots>
     <MESSAGE value="Configuration" />
     <option name="LAST_COMMIT_MESSAGE" value="Configuration" />
     <option name="UPDATE_GROUP_BY_PACKAGES" value="true" />
@@ -854,7 +844,7 @@
     <SUITE FILE_PATH="coverage/my_Git_$loggin4.coverage" NAME="loggin4 Coverage Results" MODIFIED="1554118369537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lessons7/loggin" />
     <SUITE FILE_PATH="coverage/my_Git_$server_logging_m7.coverage" NAME="server_logging_m7 Coverage Results" MODIFIED="1554450756285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lessons7" />
     <SUITE FILE_PATH="coverage/my_Git_$test_Error_m7.coverage" NAME="test_Error_m7 Coverage Results" MODIFIED="1554114752308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lessons7" />
-    <SUITE FILE_PATH="coverage/my_Git_$server.coverage" NAME="server Coverage Results" MODIFIED="1554785323890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyweb-bottle-heroku" />
+    <SUITE FILE_PATH="coverage/my_Git_$server.coverage" NAME="server Coverage Results" MODIFIED="1554805265058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyweb-bottle-heroku" />
     <SUITE FILE_PATH="coverage/my_Git_$example.coverage" NAME="example Coverage Results" MODIFIED="1554544486908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lessons7/Test3" />
     <SUITE FILE_PATH="coverage/my_Git_$pesky_attempt__1_.coverage" NAME="pesky_attempt (1) Coverage Results" MODIFIED="1554116480078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lessons7/Test22" />
     <SUITE FILE_PATH="coverage/my_Git_$pesky_attempt.coverage" NAME="pesky_attempt Coverage Results" MODIFIED="1554544539696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lessons7/Test2.2" />
@@ -902,12 +892,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lessons/Lessons7/loggin/example.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
       <provider editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Lessons/Lessons7/py_m7_hw1/m7-map-1.txt">
       <provider selected="true" editor-type-id="LargeFileEditor" />
@@ -1040,12 +1030,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lessons/Lessons7/Test3/my_app.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
       <provider editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Lessons/Lessons7/Test2.2/server.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1089,8 +1079,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lessons/Lessons7/Test5/my_app.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
       <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Lessons/Lessons7/Прочее/Calkulytor.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1106,9 +1096,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pyweb-bottle-heroku/.idea/vcs.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pyweb-bottle-heroku/.idea/vcs.xml" />
     <entry file="file://$PROJECT_DIR$/Lessons/Lessons7/Test5/server.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -1126,13 +1114,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lessons/Lessons6/Модуль 6/tasks.db">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Lessons/Lessons6/Модуль 6/tasks.db" />
     <entry file="file://$PROJECT_DIR$/Lessons/Lessons6/Модуль 6/init_db.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1153,24 +1135,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pyweb-bottle-heroku/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyweb-bottle-heroku/Procfile">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyweb-bottle-heroku/app.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyweb-bottle-heroku/server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pyweb-bottle-heroku/.idea/workspace.xml" />
+    <entry file="file://$PROJECT_DIR$/pyweb-bottle-heroku/Procfile" />
+    <entry file="file://$PROJECT_DIR$/pyweb-bottle-heroku/app.json" />
+    <entry file="file://$PROJECT_DIR$/pyweb-bottle-heroku/server.py" />
   </component>
 </project>

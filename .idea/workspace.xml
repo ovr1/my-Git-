@@ -2,23 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbd073d5-1356-47f4-aafa-31e343aede8b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lessons/Lessons8/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lessons/Lessons8/m8_hw/Test_maim.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lessons/Lessons8/m8_hw/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lessons/Lessons8/m8_hw/m8-sirotlivo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lessons/Lessons8/m8_hw/py_m8_hw1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lessons/Lessons8/m8_hw/py_m8_hw2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lessons/Lessons8/test8.1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lessons/Lessons8/test8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lessons/Lessons8/test_counter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lessons/Lessons8/test_defaultdict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lessons/Lessons8/test_time.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyweb-bottle-heroku/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyweb-bottle-heroku/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyweb-bottle-heroku/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyweb-bottle-heroku/.idea/pyweb-bottle-heroku.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyweb-bottle-heroku/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyweb-bottle-heroku/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyweb-bottle-heroku/Procfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyweb-bottle-heroku/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyweb-bottle-heroku/app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyweb-bottle-heroku/python-getting-started" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyweb-bottle-heroku/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyweb-bottle-heroku/runtime.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyweb-bottle-heroku/server.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyweb-bottle-heroku/static/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyweb-bottle-heroku/views/home.tpl" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +61,92 @@
     <favorites_list name="my-Git-" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lessons/Lessons8/test8.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="999">
+              <caret line="62" column="57" selection-start-line="62" selection-start-column="57" selection-end-line="62" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lessons/Lessons8/test8.1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="52" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lessons/Lessons8/test_time.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lessons/Lessons8/test_counter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lessons/Lessons8/m8_hw/py_m8_hw1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Lessons/Lessons8/m8_hw/py_m8_hw2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="799">
+              <caret line="47" column="67" lean-forward="true" selection-start-line="47" selection-start-column="67" selection-end-line="47" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lessons/Lessons8/m8_hw/Test_maim.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="497">
+              <caret line="43" column="67" lean-forward="true" selection-start-line="43" selection-start-column="67" selection-end-line="43" selection-end-column="67" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lessons/Lessons8/m8_hw/m8-sirotlivo.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lessons/Lessons8/test_defaultdict.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -88,14 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Lessons/Lesson4/server2x2/views/predictions2x2.tpl" />
-        <option value="$PROJECT_DIR$/Goroscop_test/helpers.js" />
-        <option value="$PROJECT_DIR$/Goroscop_test/views/helpers.js" />
-        <option value="$PROJECT_DIR$/Goroscop_test/server2.py" />
-        <option value="$PROJECT_DIR$/Goroscop_test/views/predictions2.tpl" />
-        <option value="$PROJECT_DIR$/goroscop/111.html" />
-        <option value="$PROJECT_DIR$/Goroscop_test/goroscop.html" />
-        <option value="$PROJECT_DIR$/goroscop/goroscop.html" />
         <option value="$PROJECT_DIR$/2servera/serwer+.py" />
         <option value="$PROJECT_DIR$/Lessons/Lesson4/server2/server2.py" />
         <option value="$PROJECT_DIR$/2servera/server2x2.py" />
@@ -139,14 +211,22 @@
         <option value="$PROJECT_DIR$/Lessons/Lessons6/Модуль 6/server.py" />
         <option value="$PROJECT_DIR$/Lessons/Lessons6/Модуль 6/view/index.tpl" />
         <option value="$PROJECT_DIR$/Lessons/Lessons6/Модуль 6/tasks.db" />
+        <option value="$PROJECT_DIR$/Lessons/Lessons8/test8.py" />
+        <option value="$PROJECT_DIR$/Lessons/Lessons8/test8.1.py" />
+        <option value="$PROJECT_DIR$/Lessons/Lessons8/test_time.py" />
+        <option value="$PROJECT_DIR$/Lessons/Lessons8/test_counter.py" />
+        <option value="$PROJECT_DIR$/Lessons/Lessons8/py_m8_hw1.py" />
+        <option value="$PROJECT_DIR$/Lessons/Lessons8/test_defaultdict.py" />
+        <option value="$PROJECT_DIR$/Lessons/Lessons8/m8_hw/Test_maim.py" />
+        <option value="$PROJECT_DIR$/Lessons/Lessons8/m8_hw/py_m8_hw2.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="212" />
-    <option name="y" value="122" />
-    <option name="width" value="945" />
-    <option name="height" value="576" />
+    <option name="x" value="15" />
+    <option name="y" value="3" />
+    <option name="width" value="1910" />
+    <option name="height" value="1035" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -154,7 +234,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -162,10 +241,29 @@
               <item name="my-Git-" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-Git-" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="my-Git-" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-Git-" type="462c0819:PsiDirectoryNode" />
+              <item name="Lessons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-Git-" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-Git-" type="462c0819:PsiDirectoryNode" />
+              <item name="Lessons" type="462c0819:PsiDirectoryNode" />
+              <item name="Lessons8" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-Git-" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-Git-" type="462c0819:PsiDirectoryNode" />
+              <item name="Lessons" type="462c0819:PsiDirectoryNode" />
+              <item name="Lessons8" type="462c0819:PsiDirectoryNode" />
+              <item name="m8_hw" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -174,25 +272,25 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GitProject/orybynok" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Lenovo\PycharmProjects\my-Git-\Lessons\Lessons6\111" />
-      <recent name="C:\Users\Lenovo\PycharmProjects\my-Git-\Lessons\Lessons7\Прочее" />
-      <recent name="C:\Users\Lenovo\PycharmProjects\my-Git-\Lessons\Lessons7\Test5" />
-      <recent name="C:\Users\Lenovo\PycharmProjects\my-Git-\Прочее" />
-      <recent name="C:\Users\Oleg\PycharmProjects\my-Git-\Lessons\Lessons6\Модуль 6" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\PycharmProjects\my-Git-\Lessons\Lessons8" />
       <recent name="C:\Users\Lenovo\PycharmProjects\my-Git-" />
       <recent name="C:\Users\Lenovo\PycharmProjects\my-Git-\Lessons\Lessons7\Test5" />
       <recent name="C:\Users\Lenovo\PycharmProjects\my-Git-\Lessons\Lessons7" />
       <recent name="C:\Users\Oleg\PycharmProjects\my-Git-\Lessons\Lessons6\Модуль 6" />
-      <recent name="C:\Users\Oleg\PycharmProjects\my-Git-\Lessons\Lessons6\HW" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\PycharmProjects\my-Git-\Lessons\Lessons8\m8_hw" />
+      <recent name="C:\Users\Lenovo\PycharmProjects\my-Git-\Lessons\Lessons6\111" />
+      <recent name="C:\Users\Lenovo\PycharmProjects\my-Git-\Lessons\Lessons7\Прочее" />
+      <recent name="C:\Users\Lenovo\PycharmProjects\my-Git-\Lessons\Lessons7\Test5" />
+      <recent name="C:\Users\Lenovo\PycharmProjects\my-Git-\Прочее" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -207,11 +305,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.server">
+  <component name="RunManager" selected="Python.Test_maim">
     <configuration name="index.html" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/my-Git-/Lessons/Lesson3/mod_3_gor/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="Calkulytor" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Test_maim" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="my-Git-" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -219,12 +317,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lessons/Lessons7/Прочее" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lessons/Lessons8/m8_hw" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lessons/Lessons7/Прочее/Calkulytor.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lessons/Lessons8/m8_hw/Test_maim.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -233,7 +331,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="init_db" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="py_m8_hw1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="my-Git-" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -241,12 +339,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lessons/Lessons6/Модуль 6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lessons/Lessons8" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lessons/Lessons6/Модуль 6/init_db.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Lenovo\PycharmProjects\my-Git-\Lessons\Lessons8\m8_hw\py_m8_hw1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -255,7 +353,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="server (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="py_m8_hw2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="my-Git-" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -263,12 +361,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lessons/Lessons7/Test5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lessons/Lessons8/m8_hw" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lessons/Lessons7/Test5/server.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lessons/Lessons8/m8_hw/py_m8_hw2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -277,7 +375,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="server (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test_counter" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="my-Git-" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -285,12 +383,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lessons/Lessons6/Модуль 6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lessons/Lessons8" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lessons/Lessons6/Модуль 6/server.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lessons/Lessons8/test_counter.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -299,7 +397,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="server" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test_defaultdict" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="my-Git-" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -307,12 +405,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyweb-bottle-heroku" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lessons/Lessons8" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pyweb-bottle-heroku/server.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lessons/Lessons8/test_defaultdict.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -323,11 +421,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.server" />
-        <item itemvalue="Python.server (2)" />
-        <item itemvalue="Python.init_db" />
-        <item itemvalue="Python.server (1)" />
-        <item itemvalue="Python.Calkulytor" />
+        <item itemvalue="Python.Test_maim" />
+        <item itemvalue="Python.py_m8_hw2" />
+        <item itemvalue="Python.test_defaultdict" />
+        <item itemvalue="Python.test_counter" />
+        <item itemvalue="Python.py_m8_hw1" />
       </list>
     </recent_temporary>
   </component>
@@ -405,6 +503,7 @@
       <workItem from="1554544197626" duration="1621000" />
       <workItem from="1554743130168" duration="8130000" />
       <workItem from="1554814880734" duration="2229000" />
+      <workItem from="1554899264482" duration="21240000" />
     </task>
     <task id="LOCAL-00001" summary="Configuration">
       <created>1551777657102</created>
@@ -707,21 +806,29 @@
       <option name="project" value="LOCAL" />
       <updated>1554803425788</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Configuration">
+      <created>1554899333717</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1554899333717</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="257321000" />
+    <option name="totallyTimeSpent" value="278561000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.64053535" visible="true" weight="0.15991472" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.64053535" visible="true" weight="0.16151386" />
       <window_info id="Structure" order="1" sideWeight="0.35946462" side_tool="true" weight="0.15351813" />
       <window_info id="Favorites" order="2" sideWeight="0.5011442" side_tool="true" weight="0.26780626" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4968017" weight="0.3261105" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49093816" weight="0.43336946" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4904051" weight="0.24052005" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -729,7 +836,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" sideWeight="0.49946696" weight="0.32936078" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4978678" weight="0.3261105" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" weight="0.32951945" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50852877" side_tool="true" visible="true" weight="0.43336946" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50959486" side_tool="true" weight="0.22101842" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32951945" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32951945" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.32777777" />
@@ -832,58 +939,33 @@
     <SUITE FILE_PATH="coverage/my_Git_$pysqlite_m6_hw1.coverage" NAME="pysqlite-m6-hw1 Coverage Results" MODIFIED="1554543261986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lessons6" />
     <SUITE FILE_PATH="coverage/my_Git_$server2.coverage" NAME="server2 Coverage Results" MODIFIED="1554540921826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Прочее/Goroscop_test" />
     <SUITE FILE_PATH="coverage/my_Git_$init_db.coverage" NAME="init_db Coverage Results" MODIFIED="1554751853651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lessons6/Модуль 6" />
+    <SUITE FILE_PATH="coverage/my_Git_$py_m8_hw1.coverage" NAME="py_m8_hw1 Coverage Results" MODIFIED="1554904701912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lessons8" />
     <SUITE FILE_PATH="coverage/my_Git_$loggin3.coverage" NAME="loggin3 Coverage Results" MODIFIED="1554117769989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lessons7/loggin" />
+    <SUITE FILE_PATH="coverage/my_Git_$py_m8_hw2.coverage" NAME="py_m8_hw2 Coverage Results" MODIFIED="1554923901217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lessons8/m8_hw" />
     <SUITE FILE_PATH="coverage/my_Git_$pypandas_m5_hw.coverage" NAME="pypandas-m5-hw Coverage Results" MODIFIED="1554126303361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lesson5" />
     <SUITE FILE_PATH="coverage/my_Git_$dselenie_na_17.coverage" NAME="dselenie_na_17 Coverage Results" MODIFIED="1554448203741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lessons7/Прочее" />
+    <SUITE FILE_PATH="coverage/my_Git_$test_defaultdict.coverage" NAME="test_defaultdict Coverage Results" MODIFIED="1554918791307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lessons8" />
     <SUITE FILE_PATH="coverage/my_Git_$db.coverage" NAME="db Coverage Results" MODIFIED="1554541526767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lessons6/Модуль 6" />
     <SUITE FILE_PATH="coverage/my_Git_$loggin.coverage" NAME="loggin Coverage Results" MODIFIED="1554117100366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lessons7/loggin" />
     <SUITE FILE_PATH="coverage/my_Git_$my_logging.coverage" NAME="my_logging Coverage Results" MODIFIED="1554544632981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lessons7/Test5" />
     <SUITE FILE_PATH="coverage/my_Git_$py_m7.coverage" NAME="py_m7 Coverage Results" MODIFIED="1554543432609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lessons7/py_m7_hw1" />
+    <SUITE FILE_PATH="coverage/my_Git_$Test_maim.coverage" NAME="Test_maim Coverage Results" MODIFIED="1554925597042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lessons8/m8_hw" />
     <SUITE FILE_PATH="coverage/my_Git_$server__2_.coverage" NAME="server (2) Coverage Results" MODIFIED="1554751992609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lessons6/Модуль 6" />
     <SUITE FILE_PATH="coverage/my_Git_$my_logging__1_.coverage" NAME="my_logging (1) Coverage Results" MODIFIED="1554120071955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lessons7/Test5" />
     <SUITE FILE_PATH="coverage/my_Git_$loggin4.coverage" NAME="loggin4 Coverage Results" MODIFIED="1554118369537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lessons7/loggin" />
     <SUITE FILE_PATH="coverage/my_Git_$server_logging_m7.coverage" NAME="server_logging_m7 Coverage Results" MODIFIED="1554450756285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lessons7" />
+    <SUITE FILE_PATH="coverage/my_Git_$test_counter.coverage" NAME="test_counter Coverage Results" MODIFIED="1554917804231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lessons8" />
     <SUITE FILE_PATH="coverage/my_Git_$test_Error_m7.coverage" NAME="test_Error_m7 Coverage Results" MODIFIED="1554114752308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lessons7" />
+    <SUITE FILE_PATH="coverage/my_Git_$test8_1.coverage" NAME="test8.1 Coverage Results" MODIFIED="1554900712285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lessons8" />
+    <SUITE FILE_PATH="coverage/my_Git_$test_time.coverage" NAME="test_time Coverage Results" MODIFIED="1554901049682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lessons8" />
     <SUITE FILE_PATH="coverage/my_Git_$server.coverage" NAME="server Coverage Results" MODIFIED="1554805265058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyweb-bottle-heroku" />
     <SUITE FILE_PATH="coverage/my_Git_$example.coverage" NAME="example Coverage Results" MODIFIED="1554544486908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lessons7/Test3" />
     <SUITE FILE_PATH="coverage/my_Git_$pesky_attempt__1_.coverage" NAME="pesky_attempt (1) Coverage Results" MODIFIED="1554116480078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lessons7/Test22" />
+    <SUITE FILE_PATH="coverage/my_Git_$test8.coverage" NAME="test8 Coverage Results" MODIFIED="1554900269788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lessons8" />
     <SUITE FILE_PATH="coverage/my_Git_$pesky_attempt.coverage" NAME="pesky_attempt Coverage Results" MODIFIED="1554544539696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lessons7/Test2.2" />
     <SUITE FILE_PATH="coverage/my_Git_$loggin2.coverage" NAME="loggin2 Coverage Results" MODIFIED="1554117465199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lessons/Lessons7/loggin" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Lessons/Lessons7/py_m7_hw1/m7_map_1.db" />
-    <entry file="file://$PROJECT_DIR$/Lessons/Lessons7/py_m7_hw1/m7-map-db" />
-    <entry file="file://$PROJECT_DIR$/Lessons/Lessons7/py_m7_hw1/m7pandas.py" />
-    <entry file="file://$PROJECT_DIR$/Lessons/Lesson5/pyjson-m5-hw.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lessons/Lesson5/pycsv-m5-hw.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="24" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://088e7c64-7bd2-42df-b4cb-0ad2239955c2/schema/main/table/logs">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lessons/Lessons6/Spisok_del/server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lessons/Lessons6/Spisok_del/view/index.tpl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lessons/Lessons6/Spisok_del/static/styles.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lessons/Lessons6/Spisok_del/static/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1139,5 +1221,71 @@
     <entry file="file://$PROJECT_DIR$/pyweb-bottle-heroku/Procfile" />
     <entry file="file://$PROJECT_DIR$/pyweb-bottle-heroku/app.json" />
     <entry file="file://$PROJECT_DIR$/pyweb-bottle-heroku/server.py" />
+    <entry file="file://$PROJECT_DIR$/Lessons/Lessons8/test8.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="999">
+          <caret line="62" column="57" selection-start-line="62" selection-start-column="57" selection-end-line="62" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lessons/Lessons8/test8.1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="52" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lessons/Lessons8/test_time.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lessons/Lessons8/m8_hw/m8-sirotlivo.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lessons/Lessons8/test_defaultdict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lessons/Lessons8/test_counter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lessons/Lessons8/m8_hw/py_m8_hw1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lessons/Lessons8/m8_hw/Test_maim.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="43" column="67" lean-forward="true" selection-start-line="43" selection-start-column="67" selection-end-line="43" selection-end-column="67" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lessons/Lessons8/m8_hw/py_m8_hw2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="67" lean-forward="true" selection-start-line="47" selection-start-column="67" selection-end-line="47" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

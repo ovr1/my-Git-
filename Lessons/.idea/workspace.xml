@@ -297,10 +297,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="add" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Lessons$server__1_.coverage" NAME="server (1) Coverage Results" MODIFIED="1554617164949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lesson4/server" />
-    <SUITE FILE_PATH="coverage/Lessons$server.coverage" NAME="server Coverage Results" MODIFIED="1554616493940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lesson4" />
     <SUITE FILE_PATH="coverage/Lessons$server2.coverage" NAME="server2 Coverage Results" MODIFIED="1554616775462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lesson4/server2" />
+    <SUITE FILE_PATH="coverage/Lessons$server__1_.coverage" NAME="server (1) Coverage Results" MODIFIED="1554617164949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lesson4/server" />
     <SUITE FILE_PATH="coverage/Lessons$server2x2.coverage" NAME="server2x2 Coverage Results" MODIFIED="1554617104218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lesson4/server2x2" />
+    <SUITE FILE_PATH="coverage/Lessons$server.coverage" NAME="server Coverage Results" MODIFIED="1554616493940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lesson4" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/Desktop/Test Sublime/Module3/python generate_all.py" />
